@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Aboutpage extends React.Component {
+class AboutPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -15,7 +15,7 @@ class Aboutpage extends React.Component {
               <div className='headertextbox' id='flexboxcenter'>
                 <h1 id='arcamajora'>ABOUT HEDY</h1>
                 <div className='headertextsmall2'>
-                  <p>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are HEDY.</p>
+                  <p>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are HEDY.</p>
                 </div>
               </div>
 
@@ -33,7 +33,7 @@ class Aboutpage extends React.Component {
                   </div>
 
                   <div className='aboutsignature' id='colorwhite'>
-                    <h1>Hanna & Emelie</h1>
+                    <h1>Hanna &amp; Emelie</h1>
                   </div>
 
                 </div>
@@ -60,7 +60,7 @@ class Aboutpage extends React.Component {
                   <h1 id='arcamajora'>ABOUT HEDY</h1>
                   <div className='headertextsmall2'>
                     <h6 id='arcamajoranospace'>We are Honest. We are Effectual.
-                We are Devoted. We are Young & Witty. We are <mark className='pink'>HEDY.</mark>
+                We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark>
                     </h6>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ class Aboutpage extends React.Component {
                     </p><p> Let’s create the future together!</p>
                   </div>
                   <div className='aboutsignature' id='colorwhite'>
-                    <h1>Hanna & Emelie</h1>
+                    <h1>Hanna &amp; Emelie</h1>
                   </div>
 
                 </div>
@@ -105,4 +105,4 @@ class Aboutpage extends React.Component {
   }
 }
 
-export default Aboutpage;
+export default AboutPage;

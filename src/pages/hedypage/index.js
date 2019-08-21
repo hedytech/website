@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Hedypage extends React.Component {
+class HedyPage extends React.Component {
   render () {
     return (
 
@@ -112,4 +112,4 @@ class Hedypage extends React.Component {
   }
 }
 
-export default Hedypage;
+export default HedyPage;

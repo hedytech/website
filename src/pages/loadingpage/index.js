@@ -1,17 +1,17 @@
 import React from 'react';
 import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
-import Header from '../header';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import Header from '../../components/header';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-import '../introbox/style.css';
-import '../whatwedo/style.css';
-import '../teamintro/style.css';
-import '../wearehedytext/style.css';
-import '../hedylamarrintro/style.css';
-import '../scrolltotoponmount/style.css';
+import '../../components/introbox/style.css';
+import '../../components/whatwedo/style.css';
+import '../../components/teamintro/style.css';
+import '../../components/wearehedytext/style.css';
+import '../../components/hedylamarrintro/style.css';
+import '../../components/scrolltotoponmount/style.css';
 
-class Loadingpagetwo extends React.Component {
+class LoadingPage extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
@@ -171,7 +171,7 @@ class Loadingpagetwo extends React.Component {
                   to='/about'
                 >
                   <div className='whatwedotext6' id='opacitydark'>
-                    <h4 id='colorwhite'>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className='pink'>HEDY.</mark></h4>
+                    <h4 id='colorwhite'>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h4>
                     <div className='button'><span><h5 id='nomargin'>want to know more?</h5></span></div>
                   </div>
                 </Link>
@@ -198,7 +198,7 @@ class Loadingpagetwo extends React.Component {
                   <div className='introdiv4' id='opacitydark'>
                     <div className='whatwedotext3'>
                       <h3 className='arcamajora'> HEDY LAMARR</h3>
-                      <h4> Our muse & the woman behind the name</h4>
+                      <h4> Our muse &amp; the woman behind the name</h4>
                       <div className='button4'><span><h5 id='nomargin'>find out more</h5></span></div>
                     </div>
                   </div>
@@ -346,7 +346,7 @@ class Loadingpagetwo extends React.Component {
                   to='/about'
                 >
                   <div className='whatwedotext4' id='colorwhite'>
-                    <h2>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className='pink'>HEDY.</mark></h2>
+                    <h2>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h2>
                     <div className='button btn-3'><span><h5 id='nomargin'>want to know more?</h5></span></div>
                   </div>
                 </Link>
@@ -373,7 +373,7 @@ class Loadingpagetwo extends React.Component {
                   <div className='introdiv3' id='opacity'>
                     <div className='whatwedotext3'>
                       <h1 className='arcamajora'> HEDY LAMARR</h1>
-                      <h2> Our muse & the woman behind the name</h2>
+                      <h2> Our muse &amp; the woman behind the name</h2>
                       <div className='button3 btn-3'><span><h6 id='nomargin'>find out more</h6></span></div>
                     </div>
                   </div>
@@ -389,4 +389,4 @@ class Loadingpagetwo extends React.Component {
   }
 }
 
-export default Loadingpagetwo;
+export default LoadingPage;

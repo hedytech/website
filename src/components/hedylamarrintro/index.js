@@ -8,7 +8,7 @@ class Hedylamarrintro extends React.Component {
         <div className='hedydiv'>
           <div className='hedybox1'>
             <h1 className='arcamajora'> HEDY LAMARR</h1>
-            <h2> Our muse & the woman behind the name</h2>
+            <h2> Our muse &amp; the woman behind the name</h2>
 
             <h5>Hedylity Technology is named after Hedy Lamarr,
       the brain behind frequency hopping.

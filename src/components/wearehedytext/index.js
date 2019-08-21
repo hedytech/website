@@ -7,7 +7,7 @@ class Wearehedytext extends React.Component {
       <div>
         <div className='wearehedytextbox'>
           <p className='wearehedytext'>We are Honest. We are Effectual.
-            We are Devoted. We are Young & Witty. We are HEDY.
+            We are Devoted. We are Young &amp; Witty. We are HEDY.
           </p>
         </div>
       </div>

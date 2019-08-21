@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import Getintouch from '../getintouch';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import Getintouch from '../../components/getintouch';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Innovationstudiopage extends React.Component {
+class InnovationStudioPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -32,7 +32,7 @@ class Innovationstudiopage extends React.Component {
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
                     <div className='academytextthin' id='colorwhite'>
                       <h4 id='nomarginbottom'>
-          We accelerate start-ups through becoming a long-term business & tech partner.
+          We accelerate start-ups through becoming a long-term business &amp; tech partner.
                       </h4>
                       <h4 id='nomargintop'>Our strong belief is that technology is the key to a better world,
                 therefore we partner up with, and invest in, tech innovations that
@@ -93,7 +93,7 @@ class Innovationstudiopage extends React.Component {
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
                     <div className='academytextthin' id='colorwhite'>
                       <h5 id='paddingleftright'>
-            We accelerate start-ups through becoming a long-term business & tech partner.
+            We accelerate start-ups through becoming a long-term business &amp; tech partner.
             Our strong belief is that technology is the key to a better world,
             therefore we partner up with, and invest in, tech innovations that
             have the ambition to contribute to solving at least one of the 17 global sustainability goals.
@@ -138,4 +138,4 @@ class Innovationstudiopage extends React.Component {
   }
 }
 
-export default Innovationstudiopage;
+export default InnovationStudioPage;

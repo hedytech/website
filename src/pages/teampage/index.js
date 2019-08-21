@@ -1,15 +1,14 @@
 import React from 'react';
 import './style.css';
-import Getintouch from '../getintouch';
-import Bob from '../bob';
-import Emelie from '../emelie';
-import Hanna from '../hanna';
-import Oden from '../oden';
-import Sarah from '../sarah';
+import Getintouch from '../../components/getintouch';
+import Bob from '../../components/bob';
+import Emelie from '../../components/emelie';
+import Hanna from '../../components/hanna';
+import Oden from '../../components/oden';
+import Sarah from '../../components/sarah';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-import ScrollToTopOnMount from '../scrolltotoponmount';
-
-class Teampage extends React.Component {
+class TeamPage extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
@@ -187,4 +186,4 @@ class Teampage extends React.Component {
   }
 }
 
-export default Teampage;
+export default TeamPage;

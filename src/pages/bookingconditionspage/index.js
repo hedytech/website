@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Bookingconditions extends React.Component {
+class BookingConditionsPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -39,4 +39,4 @@ class Bookingconditions extends React.Component {
   }
 }
 
-export default Bookingconditions;
+export default BookingConditionsPage;

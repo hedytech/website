@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Privacypolicy extends React.Component {
+class PrivacyPolicyPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -127,4 +127,4 @@ class Privacypolicy extends React.Component {
   }
 }
 
-export default Privacypolicy;
+export default PrivacyPolicyPage;

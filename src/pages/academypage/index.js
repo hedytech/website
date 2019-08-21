@@ -2,15 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './style.css';
-import Contactbutton from '../contactbutton';
-import ScrollToTopOnMount from '../scrolltotoponmount';
-import Tellmemorebutton from '../tellmemorebutton';
-import Comingsoon from '../comingsoon';
+import Contactbutton from '../../components/contactbutton';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
+import Tellmemorebutton from '../../components/tellmemorebutton';
+import Comingsoon from '../../components/comingsoon';
 
-class Academypage extends React.Component {
+class AcademyPage extends React.Component {
   render () {
     return (
-
       <div className='fadeinclass'>
         <ScrollToTopOnMount />
 
@@ -359,4 +358,4 @@ class Academypage extends React.Component {
   }
 }
 
-export default Academypage;
+export default AcademyPage;

@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import Interest from '../interest';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import Interest from '../../components/interest';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Kotlin extends React.Component {
+class KotlinPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -75,7 +75,7 @@ class Kotlin extends React.Component {
                   </div>
                 </div>
 
-                <h1 id='nomarginbottom'>OVERVIEW & PURPOSE</h1>
+                <h1 id='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
                 <div className='academytextthin2'>
                   <h4>Curious about the new language that changed the entire Android world?
               That made Google take it under its own wings, that have Java Champions at Red Hat salute it.
@@ -218,7 +218,7 @@ class Kotlin extends React.Component {
                   </div>
                 </div>
 
-                <h1 id='nomarginbottom'>OVERVIEW & PURPOSE</h1>
+                <h1 id='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
                 <div className='academytextthin2'>
                   <h6>Curious about the new language that changed the entire Android world?
               That made Google take it under its own wings, that have Java Champions at Red Hat salute it.
@@ -301,4 +301,4 @@ class Kotlin extends React.Component {
   }
 }
 
-export default Kotlin;
+export default KotlinPage;

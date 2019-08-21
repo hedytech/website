@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import Contactbutton from '../contactbutton';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import Contactbutton from '../../components/contactbutton';
+import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
-class Servicespage extends React.Component {
+class ServicesPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -163,4 +163,4 @@ class Servicespage extends React.Component {
   }
 }
 
-export default Servicespage;
+export default ServicesPage;
