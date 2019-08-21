@@ -1,19 +1,18 @@
-import React from "react"
-import "./style.css"
+import React from 'react';
+import './style.css';
 
 class Contactbutton extends React.Component {
-  render() {
+  render () {
     return (
       <div>
-      <a href="mailto:hello@hedy.tech" style={{ textDecoration: "none", color: "white" }}>
-          <div className="contactbuttonbox">
-            <button className="contactbutton">CONTACT US FOR MORE INFO</button>
+        <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
+          <div className='contactbuttonbox'>
+            <button className='contactbutton'>CONTACT US FOR MORE INFO</button>
           </div>
-      </a>
+        </a>
       </div>
-    )
+    );
   }
-
 }
 
-export default Contactbutton
+export default Contactbutton;

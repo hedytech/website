@@ -24,7 +24,7 @@
   } */
 
   #hedy {
-    background-image: url(../images/hedy4.jpg);
+    background-image: url(../../images/hedy4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@
   }
 
   #innovation {
-    background-image: url(../images/innovationstudiopic.jpg);
+    background-image: url(../../images/innovationstudiopic.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -43,7 +43,7 @@
 
 
   #academy {
-    background-image: url(../images/code2.jpg);
+    background-image: url(../../images/code2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@
   }
 
   #academy3 {
-    background-image: url(../images/code2.jpg);
+    background-image: url(../../images/code2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@
   }
 
   #services {
-    background-image: url(../images/wall.jpg);
+    background-image: url(../../images/wall.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -71,7 +71,7 @@
 
 
   #innovation {
-    background-image: url(../images/startup.jpg);
+    background-image: url(../../images/startup.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -80,7 +80,7 @@
   }
 
   #headerpic {
-    background-image: url(../images/loadingpage2.jpg);
+    background-image: url(../../images/loadingpage2.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -89,7 +89,7 @@
   }
 
   #wearehedy {
-    background-image: url(../images/poster.jpg);
+    background-image: url(../../images/poster.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -98,7 +98,7 @@
   }
 
   #gettoknow {
-    background-image: url(../images/loadingpage1.jpg);
+    background-image: url(../../images/loadingpage1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -107,7 +107,7 @@
   }
 
   #whatwedo {
-    background-image: url(../images/loadingpage3.jpg);
+    background-image: url(../../images/loadingpage3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -116,7 +116,7 @@
   }
 
   #kotlin {
-    background-image: url(../images/kotlin.jpg);
+    background-image: url(../../images/kotlin.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -126,7 +126,7 @@
 
 
   #kotlin2 {
-    background-image: url(../images/kotlin.jpg);
+    background-image: url(../../images/kotlin.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -176,7 +176,7 @@
 
 
   #academy {
-    background-image: url(../images/code2.jpg);
+    background-image: url(../../images/code2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,7 +185,7 @@
   }
 
   #academy3 {
-    background-image: url(../images/code2.jpg);
+    background-image: url(../../images/code2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -202,7 +202,7 @@
 
 
   #kotlin {
-    background-image: url(../images/kotlin.jpg);
+    background-image: url(../../images/kotlin.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -212,7 +212,7 @@
 
 
   #kotlin2 {
-    background-image: url(../images/kotlin.jpg);
+    background-image: url(../../images/kotlin.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -341,7 +341,7 @@
 
 
 #innovation {
-  background-image: url(../images/innovationstudiopic.jpg);
+  background-image: url(../../images/innovationstudiopic.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -351,7 +351,7 @@
 
 
 #academy {
-  background-image: url(../images/code2.jpg);
+  background-image: url(../../images/code2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -360,7 +360,7 @@
 }
 
 #academy3 {
-  background-image: url(../images/code2.jpg);
+  background-image: url(../../images/code2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -369,7 +369,7 @@
 }
 
 #services {
-  background-image: url(../images/wall.jpg);
+  background-image: url(../../images/wall.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -379,7 +379,7 @@
 
 
 #innovation {
-  background-image: url(../images/startup.jpg);
+  background-image: url(../../images/startup.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -388,7 +388,7 @@
 }
 
 #headerpic {
-  background-image: url(../images/loadingpage2.jpg);
+  background-image: url(../../images/loadingpage2.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -397,7 +397,7 @@
 }
 
 #hedy {
-  background-image: url(../images/hedy4.jpg);
+  background-image: url(../../images/hedy4.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -407,7 +407,7 @@
 
 
 #wearehedy {
-  background-image: url(../images/poster.jpg);
+  background-image: url(../../images/poster.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -416,7 +416,7 @@
 }
 
 #gettoknow {
-  background-image: url(../images/loadingpage1.jpg);
+  background-image: url(../../images/loadingpage1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -425,7 +425,7 @@
 }
 
 #whatwedo {
-  background-image: url(../images/loadingpage3.jpg);
+  background-image: url(../../images/loadingpage3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -434,7 +434,7 @@
 }
 
 #kotlin {
-  background-image: url(../images/kotlin.jpg);
+  background-image: url(../../images/kotlin.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -444,7 +444,7 @@
 
 
 #kotlin2 {
-  background-image: url(../images/kotlin.jpg);
+  background-image: url(../../images/kotlin.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

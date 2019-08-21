@@ -51,7 +51,7 @@
 }
 
 #linkedinlogo {
-  background-image: url(../images/linkedin.png);
+  background-image: url(../../images/linkedin.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -60,7 +60,7 @@
 }
 
 #instagramlogo {
-  background-image: url(../images/instagram.png);
+  background-image: url(../../images/instagram.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -71,7 +71,7 @@
 @media (max-width: 1000px) {
 
   #linkedinlogo {
-    background-image: url(../images/linkedin.png);
+    background-image: url(../../images/linkedin.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -80,7 +80,7 @@
   }
 
   #instagramlogo {
-    background-image: url(../images/instagram.png);
+    background-image: url(../../images/instagram.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

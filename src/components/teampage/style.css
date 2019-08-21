@@ -80,7 +80,7 @@
 
 
 #bob {
-  background-image: url(../images/bob_1.png);
+  background-image: url(../../images/bob_1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -89,7 +89,7 @@
 }
 
 #emelie {
-  background-image: url(../images/emelie_1.png);
+  background-image: url(../../images/emelie_1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -98,7 +98,7 @@
 }
 
 #hanna {
-  background-image: url(../images/hanna_1.png);
+  background-image: url(../../images/hanna_1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -107,7 +107,7 @@
 }
 
 #oden {
-  background-image: url(../images/oden_1.png);
+  background-image: url(../../images/oden_1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -116,7 +116,7 @@
 }
 
 #sara {
-  background-image: url(../images/sara_1.png);
+  background-image: url(../../images/sara_1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

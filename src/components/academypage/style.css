@@ -259,7 +259,7 @@ transform: scale(1.05, 1.05);
 
 
 #hedyacademytext {
-  background-image: url(../images/hedyacademy.png);
+  background-image: url(../../images/hedyacademy.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
@@ -282,7 +282,7 @@ transform: scale(1.05, 1.05);
 @media (max-width: 1000px) {
 
   #hedyacademytext {
-    background-image: url(../images/hedyacademy.png);
+    background-image: url(../../images/hedyacademy.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;

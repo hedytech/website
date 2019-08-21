@@ -1,19 +1,18 @@
-import React from "react"
-import "./style.css"
+import React from 'react';
+import './style.css';
 
 class Getintouch extends React.Component {
-  render() {
+  render () {
     return (
       <div>
-      <a href="mailto:hello@hedy.tech" style={{ textDecoration: "none", color: "white" }}>
-          <div className="contactbuttonbox">
-            <button className="contactbutton">GET IN TOUCH</button>
+        <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
+          <div className='contactbuttonbox'>
+            <button className='contactbutton'>GET IN TOUCH</button>
           </div>
-      </a>
+        </a>
       </div>
-    )
+    );
   }
-
 }
 
-export default Getintouch
+export default Getintouch;

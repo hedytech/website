@@ -57,7 +57,7 @@ h1:hover+.underline {
   src:
     local(Arca Majora3),
     local(arcamajora),
-    url("./components/fonts/arcamajora.ttf") format("truetype");
+    url("./fonts/arcamajora.ttf") format("truetype");
 }
 
 @font-face {
@@ -66,7 +66,7 @@ h1:hover+.underline {
   src:
     local(Futura Medium Italic),
     local(futuramediumitalic),
-    url("./components/fonts/futuramediumitalic.ttf") format("truetype");
+    url("./fonts/futuramediumitalic.ttf") format("truetype");
 }
 
 @font-face {
@@ -75,7 +75,7 @@ h1:hover+.underline {
   src:
     local(Futura Thin),
     local(futurathin),
-    url("./components/fonts/futurathin.ttf") format("truetype");
+    url("./fonts/futurathin.ttf") format("truetype");
 }
 
 @font-face {
@@ -85,7 +85,7 @@ h1:hover+.underline {
   src:
     local(River Jade),
     local(riverjade),
-    url("./components/fonts/riverjade.ttf") format("truetype");
+    url("./fonts/riverjade.ttf") format("truetype");
 }
 
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
@@ -551,7 +551,7 @@ mark.italic {
   }
 
   #blackhylogo {
-    background-image: url(./components/images/vithy.png);
+    background-image: url(./images/vithy.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -663,7 +663,7 @@ mark.italic {
   }
 
   #blackhylogo {
-    background-image: url(./components/images/vithy.png);
+    background-image: url(./images/vithy.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

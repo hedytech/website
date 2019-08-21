@@ -1,19 +1,13 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import "./style.css"
-
+import React from 'react';
+import './style.css';
 
 class Newhamburger extends React.Component {
-
-
-  render() {
+  render () {
     return (
 
-      <div>
-
-      </div>
-    )
+      <div />
+    );
   }
 }
 
-export default Newhamburger
+export default Newhamburger;

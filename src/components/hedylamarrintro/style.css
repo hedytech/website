@@ -2,7 +2,7 @@
 
 
 #hedylamarrpicture {
-  background-image: url(../images/hedyfaceweb1.png);
+  background-image: url(../../images/hedyfaceweb1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,7 +65,7 @@
 }
 @media (max-width: 1000px) {
   #hedyhandsvartbeige {
-    background-image: url(../images/vithand.png);
+    background-image: url(../../images/vithand.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -176,7 +176,7 @@
   }
 
   #hedyhandsvartbeige {
-    background-image: url(../images/vithand.png);
+    background-image: url(../../images/vithand.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -223,7 +223,4 @@
     top: 20em;
   }
 
-
-
-
-  }
+}
