@@ -1,95 +1,85 @@
 .menuboarddivfotnot {
-  background-color: #051C26;
-  border-top: 1px solid #033140;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  height: auto;
-  width: 100%;
-  /* text-align: center; */
-  color: white;
-  margin: auto;
+  background-color:#051C26;
+  border-top:1px solid #033140;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  height:auto;
+  width:100%;
+  color:white;
+  margin:auto;
 }
 
 .fotnotlogos {
-  padding-top: 1vw;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  /* height: 200px; */
-  width: 100%
+  padding-top:1vw;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:center;
+  width:100%;
 }
 
 .fotnotcontact {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  /* height: 200px; */
-  width: 100%;
-  font-family: Futura Medium Italic;
-  /* font-size: 30px; */
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  text-align:center;
+  margin:auto;
+  width:100%;
+  font-family:Futura Medium Italic;
 }
 
 .fotnotcontact2 {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-  width: 100%;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  margin:auto;
+  text-align:center;
+  width:100%;
 }
 
 .logobox {
-  width: 7vw;
-  height: 7vw;
+  width:7vw;
+  height:7vw;
 }
 
-.hedylitytechnologyfontsize {
-  font-size: 1.6vw;
-}
+.hedylitytechnologyfontsize { font-size:1.6vw; }
 
 #linkedinlogo {
-  background-image: url(../../images/linkedin.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-size: 60%;
-  z-index: 1;
+  background-image:url(../../images/linkedin.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-size:60%;
+  z-index:1;
 }
 
 #instagramlogo {
-  background-image: url(../../images/instagram.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-size: 40%;
-  z-index: 1;
+  background-image:url(../../images/instagram.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-size:40%;
+  z-index:1;
 }
 
-@media (max-width: 1000px) {
-
+@media (max-width:1000px) {
   #linkedinlogo {
-    background-image: url(../../images/linkedin.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-size: 100%;
-    z-index: 1;
+    background-image:url(../../images/linkedin.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-size:100%;
+    z-index:1;
   }
 
   #instagramlogo {
-    background-image: url(../../images/instagram.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-size: 70%;
-    z-index: 1;
+    background-image:url(../../images/instagram.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-size:70%;
+    z-index:1;
   }
 }
 
-
-@media (min-width: 1000px) {
-
-}
+@media (min-width:1000px) {}

@@ -1,21 +1,19 @@
-
 .underconstruction {
-  background-color: #051C26;
-  height: 1000px;
-  text-align: center;
-  margin: auto;
-  padding-top: 20vw;
-  padding-bottom: 20vw;
+  background-color:#051C26;
+  height:1000px;
+  text-align:center;
+  margin:auto;
+  padding-top:20vw;
+  padding-bottom:20vw;
 }
 
-
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
   .underconstruction {
-    background-color: #051C26;
-    height: 2000px;
-    text-align: center;
-    margin: auto;
-    padding-top: 50vw;
-    padding-bottom: 20vw;
+    background-color:#051C26;
+    height:2000px;
+    text-align:center;
+    margin:auto;
+    padding-top:50vw;
+    padding-bottom:20vw;
   }
 }

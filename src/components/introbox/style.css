@@ -1,147 +1,124 @@
-
-
 .introbox {
-  width: 80%;
-  height: auto;
-  background-color: #051C26;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  padding: 50px;
+  width:80%;
+  height:auto;
+  background-color:#051C26;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-flow:column;
+  padding:50px;
 }
 
 .introtext {
-  margin: 0;
-  text-align: justify;
-  font-size: 50px;
-  font-family: Futura Medium Italic;
-  color: #FE7E83;
+  margin:0;
+  text-align:justify;
+  font-size:50px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
 }
 
 .introtextsmall {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 40px;
-  font-family: Futura Thin;
-  color: #F8ECE4;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:justify;
+  font-size:40px;
+  font-family:Futura Thin;
+  color:#F8ECE4;
 }
 
 .introtextlast {
-  margin: 0;
-  text-align: center;
-  font-size: 50px;
-  font-family: Futura Medium Italic;
-  color: #FE7E83;
+  margin:0;
+  text-align:center;
+  font-size:50px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
 }
 
-
-
-
 .webintrobox {
-  width: 80%;
-  height: auto;
-  /* background-color: #051C26; */
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  padding: 50px;
+  width:80%;
+  height:auto;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-flow:column;
+  padding:50px;
 }
 
 .webintrotext {
-  margin: 0;
-  /* text-align: justify; */
-  font-size: 70px;
-  font-family: Futura Medium Italic;
-  /* color: #FE7E83; */
+  margin:0;
+  font-size:70px;
+  font-family:Futura Medium Italic;
 }
 
 .webintrotextsmall {
-  padding-left: 150px;
-  padding-right: 150px;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 20px;
-  font-family: Futura Thin;
-  /* color: #F8ECE4; */
+  padding-left:150px;
+  padding-right:150px;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:justify;
+  font-size:20px;
+  font-family:Futura Thin;
 }
 
 .webintrotextlast {
-  margin: 0;
-  padding-left: 150px;
-
-  text-align: left;
-  font-size: 20px;
-  font-family: Futura Medium Italic;
-  color: #FE7E83;
+  margin:0;
+  padding-left:150px;
+  text-align:left;
+  font-size:20px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
 }
 
+.introdiv {
+  width:100%;
+  display:flex;
+  height:500px;
+  flex-flow:wrap;
+  justify-content:space-between;
+}
 
+.introsmalltext {
+  font-family:Futura Medium Italic;
+  text-align:left;
+  padding:30px;
+  font-size:20px;
+  margin-top:100px;
+  width:55%;
+  height:300px;
+  color:white;
+  background-color:black;
+  margin-right:20px;
+}
+
+.smallertext { font-size:30px; }
+
+@media (max-width:1000px) {
   .introdiv {
-    width: 100%;
-    display: flex;
-    height: 500px;
-    flex-flow: wrap;
-    justify-content: space-between;
-    /* background-color: #033140; */
+    width:100%;
+    display:flex;
+    height:500px;
+    margin-bottom:500px;
+    flex-flow:column;
+    justify-content:space-between;
   }
 
   .introsmalltext {
-    font-family: Futura Medium Italic;
-    text-align: left;
-    padding: 30px;
-    font-size: 20px;
-    margin-top: 100px;
-    width: 55%;
-    height: 300px;
-    color: white;
-    background-color: black;
-    margin-right: 20px;
-
+    font-family:Futura Medium Italic;
+    text-align:left;
+    padding:30px;
+    font-size:18px;
+    margin-top:100px;
+    width:100%;
+    height:300px;
+    color:white;
+    background-color:black;
+    margin-right:20px;
   }
 
   .smallertext {
-    font-size: 30px;
+    text-align:center;
+    font-size:30px;
   }
+}
 
-  @media (max-width: 1000px) {
-    .introdiv {
-      width: 100%;
-      display: flex;
-      height: 500px;
-      margin-bottom: 500px;
-      flex-flow: column;
-      justify-content: space-between;
-      /* background-color: #033140; */
-    }
-
-    .introsmalltext {
-      font-family: Futura Medium Italic;
-      text-align: left;
-      padding: 30px;
-      font-size: 18px;
-      margin-top: 100px;
-      width: 100%;
-      height: 300px;
-      color: white;
-      background-color: black;
-      margin-right: 20px;
-
-    }
-
-    .smallertext {
-      text-align: center;
-      font-size: 30px;
-    }
-
-
-  }
-
-
-  @media (min-width: 1000px) {
-
-  }
+@media (min-width:1000px) {}

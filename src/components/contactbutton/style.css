@@ -1,58 +1,53 @@
 .contactbuttonbox {
-  /* margin-top: 100px; */
-  border: 0;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  width: 100%;
+  border:0;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  width:100%;
 }
 
 .contactbutton {
-  border: 0;
-  margin: auto;
-  font-size: 3vw;
-  width: 100%;
-  color: #FE7E83;
-  background-color: #051C26;
-  padding: 1.5vw;
-  font-family: Arca Majora3;
-  letter-spacing: 5px;
+  border:0;
+  margin:auto;
+  font-size:3vw;
+  width:100%;
+  color:#FE7E83;
+  background-color:#051C26;
+  padding:1.5vw;
+  font-family:Arca Majora3;
+  letter-spacing:5px;
 }
 
-
-
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   .contactbuttonbox {
-    margin-top: 0px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    width: 70%;
-    color: black;
-    margin: auto;
+    margin-top:0px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    width:70%;
+    color:black;
+    margin:auto;
   }
 
   .contactbutton {
-    cursor: pointer;
-    margin: auto;
-    font-size: 2vw;
-    width: 100%;
-    color: #FE7E83;
-    border-radius: 0px;
-    border: 0;
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
-    transition: background 0.5s ease-in-out,
+    cursor:pointer;
+    margin:auto;
+    font-size:2vw;
+    width:100%;
+    color:#FE7E83;
+    border-radius:0px;
+    border:0;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition:0.5s ease-in-out;
   }
 
   .contactbutton:hover {
-    margin: auto;
-    /* font-size: 20px; */
-    width: 100%;
-    color: black;
-    background-color: #FE7E83;
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
+    margin:auto;
+    width:100%;
+    color:black;
+    background-color:#FE7E83;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
   }
-
 }

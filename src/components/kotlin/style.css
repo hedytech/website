@@ -1,46 +1,42 @@
 .justifyrightkotlin {
-  width: 30%;
-  display: flex;
-  flex-flow: column;
+  width:30%;
+  display:flex;
+  flex-flow:column;
 }
 
 .textboxkotlin {
-  /* margin: 35px; */
-  margin-left: 20px;
-  margin-bottom: 10px;
-  width: 80%;
-  color: white;
-  /* margin: auto; */
-  font-family: Futura Thin;
-  font-size: 15px;
-  justify-content: center;
-  padding: 50px;
-  /* margin-top: -110px; */
-  background-color: rgb(241,136,138);
+  margin-left:20px;
+  margin-bottom:10px;
+  width:80%;
+  color:white;
+  font-family:Futura Thin;
+  font-size:15px;
+  justify-content:center;
+  padding:50px;
+  background-color:rgb(241,136,138);
 }
 
 .textboxkotlin2 {
-  margin-bottom: 10px;
-  width: 100%;
-  /* color: white; */
-  font-family: Futura Thin;
-  font-size: 15px;
-  justify-content: center;
-  padding: 50px;
-  background-color: white;
+  margin-bottom:10px;
+  width:100%;
+  font-family:Futura Thin;
+  font-size:15px;
+  justify-content:center;
+  padding:50px;
+  background-color:white;
 }
 
 .justifykotlinlargediv {
-  width: 100%;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  width:100%;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
 }
 
 .justifykotlinlargediv2 {
-  width: 100%;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-  background-color: #051C26;
+  width:100%;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
+  background-color:#051C26;
 }

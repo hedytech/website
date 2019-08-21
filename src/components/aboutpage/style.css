@@ -1,198 +1,183 @@
 .aboutteambox {
-  position: relative;
-  width: 70%;
-  margin: auto;
-  height: auto;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-  background-color: rgba(255,255,255, 0.5);
+  position:relative;
+  width:70%;
+  margin:auto;
+  height:auto;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
+  background-color:rgba(255,255,255,0.5);
 }
 
 .aboutpicturebox {
-  /* margin-top: 50px; */
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: -200px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  /* background-color: #051C26; */
-  height: 500px;
-  width: 100%;
-  text-align: center;
+  padding-left:20px;
+  padding-right:20px;
+  margin-bottom:-200px;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  height:500px;
+  width:100%;
+  text-align:center;
 }
 
-
 #hannaemelie {
-  background-image: url(../../images/hanna&emelie.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-size: 80%;
-  /* z-index: -1; */
+  background-image:url(../../images/hanna&emelie.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-size:80%;
 }
 
 #hannaemelieweb {
-  background-image: url(../../images/hanna&emelie.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-size: 40%;
-  /* z-index: -1; */
+  background-image:url(../../images/hanna&emelie.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-size:40%;
 }
 
 .aboutsignature {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  height: 200px;
-  width: 100%;
-  font-family: River Jade;
-  font-size: 60px;
-  text-align: center;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  height:200px;
+  width:100%;
+  font-family:River Jade;
+  font-size:60px;
+  text-align:center;
 }
 
 .abouttextthin {
-  font-family: Futura Thin;
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 20px;
+  font-family:Futura Thin;
+  text-align:center;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:20px;
 }
 
 .abouttextthin2 {
-  font-family: Futura Thin;
-  text-align: left;
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  font-size: 20px;
+  font-family:Futura Thin;
+  text-align:left;
+  width:60%;
+  margin:auto;
+  padding-top:20px;
+  font-size:20px;
 }
 
 .abouttextthinleft {
-  font-family: Futura Thin;
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 20px;
+  font-family:Futura Thin;
+  text-align:left;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:20px;
 }
 
 .abouttextthinleftweb {
-  font-family: Futura Thin;
-  text-align: left;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  font-size: 20px;
-  padding-top: 10vw;
-  padding-bottom: 10vw;
+  font-family:Futura Thin;
+  text-align:left;
+  padding-left:10vw;
+  padding-right:10vw;
+  font-size:20px;
+  padding-top:10vw;
+  padding-bottom:10vw;
 }
-
-
-
 
 .justifycenter {
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  /* margin-bottom: 20px; */
-  justify-content: center;
+  width:100%;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
 }
 
-
 .textboxabout {
-  margin-left: 20px;
-  width: 70%;
-  color: white;
-  font-family: Futura Thin;
-  font-size: 18px;
-  justify-content: center;
-  padding: 30px;
-  margin: auto;
-  background-color: rgba(255,255,255, 0.5);
+  margin-left:20px;
+  width:70%;
+  color:white;
+  font-family:Futura Thin;
+  font-size:18px;
+  justify-content:center;
+  padding:30px;
+  margin:auto;
+  background-color:rgba(255,255,255,0.5);
 }
 
 .textbox1about {
-  padding-left: 40px;
-  width: 70%;
-  color: white;
-  font-family: Futura Thin;
-  font-size: 20px;
-  justify-content: center;
-  padding: 50px;
-  margin: auto;
-  /* border-left: 4px solid rgba(255,255,255, 0.5);;
-  border-right: 4px solid rgba(255,255,255, 0.5);; */
+  padding-left:40px;
+  width:70%;
+  color:white;
+  font-family:Futura Thin;
+  font-size:20px;
+  justify-content:center;
+  padding:50px;
+  margin:auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
   .aboutteambox {
-    position: relative;
-    width: 90%;
-    margin: auto;
-    height: auto;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    background-color: rgba(255,255,255, 0.5);
+    position:relative;
+    width:90%;
+    margin:auto;
+    height:auto;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    background-color:rgba(255,255,255,0.5);
   }
 
   .aboutpicturebox {
-    margin-top: -25vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-bottom: -200px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    height: 500px;
-    width: 100%;
-    text-align: center;
+    margin-top:-25vw;
+    padding-left:2vw;
+    padding-right:2vw;
+    margin-bottom:-200px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    height:500px;
+    width:100%;
+    text-align:center;
   }
 
   .abouttextthin2 {
-    font-family: Futura Thin;
-    text-align: left;
-    width: 90%;
-    margin: auto;
-    padding-top: 1vw;
-    font-size: 20px;
+    font-family:Futura Thin;
+    text-align:left;
+    width:90%;
+    margin:auto;
+    padding-top:1vw;
+    font-size:20px;
   }
 
   .aboutsignature {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    height: 100px;
-    width: 100%;
-    font-family: River Jade;
-    font-size: 10vw;
-    text-align: center;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    height:100px;
+    width:100%;
+    font-family:River Jade;
+    font-size:10vw;
+    text-align:center;
   }
 
   .textbox1about {
-    padding-left: 40px;
-    width: 90%;
-    color: white;
-    font-family: Futura Thin;
-    font-size: 20px;
-    justify-content: center;
-    padding: 2vw;
-    margin: auto;
-    /* border-left: 4px solid rgba(255,255,255, 0.5);;
-    border-right: 4px solid rgba(255,255,255, 0.5);; */
+    padding-left:40px;
+    width:90%;
+    color:white;
+    font-family:Futura Thin;
+    font-size:20px;
+    justify-content:center;
+    padding:2vw;
+    margin:auto;
   }
 
   .textboxabout {
-    margin-left: 20px;
-    width: 90%;
-    color: white;
-    font-family: Futura Thin;
-    font-size: 18px;
-    justify-content: center;
-    padding: 2vw;
-    margin: auto;
-    background-color: rgba(255,255,255, 0.5);
+    margin-left:20px;
+    width:90%;
+    color:white;
+    font-family:Futura Thin;
+    font-size:18px;
+    justify-content:center;
+    padding:2vw;
+    margin:auto;
+    background-color:rgba(255,255,255,0.5);
   }
-
 }

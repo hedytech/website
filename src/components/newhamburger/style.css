@@ -1,145 +1,88 @@
-.menutext {
-  /* padding-top: 350px; */
-  color: #FE7E83;
+.menutext { color:#FE7E83; }
+
+#sidemenuToggle {
+  position:fixed;
+  top:0;
+  right:0;
+  background-color:#051C26;
+  width:100%;
+  height:10%;
+  -webkit-user-select:none;
+  user-select:none;
 }
 
-
-#sidemenuToggle
-{
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #051C26;
-  /* opacity: 0.8; */
-
-  width: 100%;
-  height: 10%;
-
-  -webkit-user-select: none;
-  user-select: none;
+#sidemenuToggle input {
+  display:block;
+  width:40px;
+  height:32px;
+  position:absolute;
+  top:-7px;
+  left:-5px;
+  cursor:pointer;
+  opacity:0;
+  z-index:2;
+  -webkit-touch-callout:none;
 }
 
-#sidemenuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-
-
-  cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-
-  -webkit-touch-callout: none;
+#sidemenuToggle span {
+  display:block;
+  width:33px;
+  height:4px;
+  margin-bottom:5px;
+  position:relative;
+  background:#cdcdcd;
+  border-radius:3px;
+  z-index:1;
+  transform-origin:4px 0px;
+  transition:transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),opacity 0.55s ease;
 }
 
-/*
- * Just a quick hamburger
- */
-#sidemenuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
+#sidemenuToggle span:first-child { transform-origin:0% 0%; }
 
-  background: #cdcdcd;
-  border-radius: 3px;
+#sidemenuToggle span:nth-last-child(2) { transform-origin:0% 100%; }
 
-  z-index: 1;
-
-  transform-origin: 4px 0px;
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+#sidemenuToggle input:checked~span {
+  opacity:1;
+  transform:rotate(45deg) translate(-2px,-1px);
+  background:#232323;
 }
 
-#sidemenuToggle span:first-child
-{
-  transform-origin: 0% 0%;
+#sidemenuToggle input:checked~span:nth-last-child(3) {
+  opacity:0;
+  transform:rotate(0deg) scale(0.2,0.2);
 }
 
-#sidemenuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
+#sidemenuToggle input:checked~span:nth-last-child(2) {
+  opacity:1;
+  transform:rotate(-45deg) translate(0,-1px);
 }
 
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#sidemenuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+#sidemenu {
+  position:absolute;
+  width:100%;
+  padding:10px;
+  padding-left:100px;
+  padding-right:100px;
+  top:0;
+  height:10%;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
+  background-color:#051C26;
+  z-index:-1000;
+  list-style-type:none;
+  -webkit-font-smoothing:antialiased;
+  transform-origin:0% 0%;
+  transform:translate(100%,0);
+  transition:transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-/*
- * But let's hide the middle one.
- */
-#sidemenuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+#sidemenu li {
+  padding:10px 0;
+  font-size:22px;
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
-#sidemenuToggle input:checked ~ span:nth-last-child(2)
-{
-  opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#sidemenu
-{
-  position: absolute;
-  width: 100%;
-  padding: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  /* padding-top: 300px; */
-  top: 0;
-  height: 10%;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-
-  background-color: #051C26;
-  z-index: -1000;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#sidemenu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-/*
- * And let's fade it in from the left
- */
-#sidemenuToggle input:checked ~ ul
-{
-  transform: scale(1.0, 1.0);
-  opacity: 1;
+#sidemenuToggle input:checked~ul {
+  transform:scale(1.0,1.0);
+  opacity:1;
 }

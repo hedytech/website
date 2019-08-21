@@ -1,96 +1,85 @@
 .tellmemorebuttonbox {
-  margin-top: 100px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  width: 100%;
+  margin-top:100px;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  width:100%;
 }
 
 .tellmemorebutton {
-  margin: auto;
-  font-size: 30px;
-  width: 35%;
-  color: #F8ECE4;
-  background-color: black;
-  padding: 20px;
-  border-radius: 35px;
-  font-family: Arca Majora3;
-  letter-spacing: 5px;
+  margin:auto;
+  font-size:30px;
+  width:35%;
+  color:#F8ECE4;
+  background-color:black;
+  padding:20px;
+  border-radius:35px;
+  font-family:Arca Majora3;
+  letter-spacing:5px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
   .tellmemorebuttonbox {
-    margin-top: 0px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    width: 100%;
+    margin-top:0px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    width:100%;
   }
 
   .tellmemorebutton {
-    cursor: pointer;
-    margin: auto;
-    font-size: 10px;
-    width: 100%;
-    color: #F8ECE4;
-    background-color: black;
-    /* padding: 10px; */
-    border-radius: 0px;
-    border: 0;
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
-    transition: background 0.5s ease-in-out,
+    cursor:pointer;
+    margin:auto;
+    font-size:10px;
+    width:100%;
+    color:#F8ECE4;
+    background-color:black;
+    border-radius:0px;
+    border:0;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition:0.5s ease-in-out;
   }
 
   .tellmemorebutton:hover {
-    margin: auto;
-    font-size: 10px;
-    width: 100%;
-
-    background-color: #FE7E83;
-;
-    /* padding: 10px; */
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
+    margin:auto;
+    font-size:10px;
+    width:100%;
+    background-color:#FE7E83;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
   }
-
 }
 
-
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   .tellmemorebuttonbox {
-    margin-top: 0px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    width: 100%;
+    margin-top:0px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    width:100%;
   }
 
   .tellmemorebutton {
-    cursor: pointer;
-    margin: auto;
-    font-size: 10px;
-    width: 100%;
-    color: #F8ECE4;
-    background-color: black;
-    /* padding: 10px; */
-    border-radius: 0px;
-    border: 0;
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
-    transition: background 0.5s ease-in-out,
+    cursor:pointer;
+    margin:auto;
+    font-size:10px;
+    width:100%;
+    color:#F8ECE4;
+    background-color:black;
+    border-radius:0px;
+    border:0;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition:0.5s ease-in-out;
   }
 
   .tellmemorebutton:hover {
-    margin: auto;
-    font-size: 10px;
-    width: 100%;
-
-    background-color: #FE7E83;
-;
-    /* padding: 10px; */
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
+    margin:auto;
+    font-size:10px;
+    width:100%;
+    background-color:#FE7E83;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
   }
-
 }

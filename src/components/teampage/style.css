@@ -1,253 +1,230 @@
 .newpageheading {
-  margin-top: 400px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  height: 100px;
-  width: 100%;
-  font-family: Arca Majora3;
-  font-size: 30px;
-  text-align: center;
-  letter-spacing: 5px;
+  margin-top:400px;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  height:100px;
+  width:100%;
+  font-family:Arca Majora3;
+  font-size:30px;
+  text-align:center;
+  letter-spacing:5px;
 }
 
-
 .newpageintrotext {
-  font-family: Futura Medium Italic;
-  text-align: justify;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 20px;
+  font-family:Futura Medium Italic;
+  text-align:justify;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:20px;
 }
 
 .teambox {
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  padding-left:20px;
+  padding-right:20px;
+  position:relative;
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
 }
 
 .picturebox {
-  padding-top: 600px;
-  margin-top: 10px;
-  margin-bottom: 250px;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  height: 500px;
-  width: 50%;
-  text-align: center;
+  padding-top:600px;
+  margin-top:10px;
+  margin-bottom:250px;
+  padding-left:20px;
+  padding-right:20px;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  height:500px;
+  width:50%;
+  text-align:center;
 }
 
 .headernametext {
-  margin-top: 5vw;
-  width: 100%;
-  text-align: center;
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
+  margin-top:5vw;
+  width:100%;
+  text-align:center;
+  padding-left:0.5vw;
+  padding-right:0.5vw;
 }
 
-
 .aboutpersontextcenter {
-  font-family: Futura Thin;
-  text-align: left;
-  /* font-size: 20px; */
+  font-family:Futura Thin;
+  text-align:left;
 }
 
 .hashtagstext {
-  font-family: Futura Medium Italic;
-  text-align: left;
-  font-size: 1vw;
+  font-family:Futura Medium Italic;
+  text-align:left;
+  font-size:1vw;
 }
 
 .jointheteam {
-  font-family: Arca Majora3;
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 20px;
-  margin-top: 150px;
-  margin-bottom: 150px;
-  letter-spacing: 5px;
+  font-family:Arca Majora3;
+  text-align:center;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:20px;
+  margin-top:150px;
+  margin-bottom:150px;
+  letter-spacing:5px;
 }
 
-
-
 #bob {
-  background-image: url(../../images/bob_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 40%;
-  /* z-index: -1; */
+  background-image:url(../../images/bob_1.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  background-size:40%;
 }
 
 #emelie {
-  background-image: url(../../images/emelie_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 60%;
-  /* z-index: -1; */
+  background-image:url(../../images/emelie_1.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  background-size:60%;
 }
 
 #hanna {
-  background-image: url(../../images/hanna_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 50%;
-  /* z-index: -1; */
+  background-image:url(../../images/hanna_1.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  background-size:50%;
 }
 
 #oden {
-  background-image: url(../../images/oden_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 50%;
-  /* z-index: -1; */
+  background-image:url(../../images/oden_1.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  background-size:50%;
 }
 
 #sara {
-  background-image: url(../../images/sara_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 50%;
-  /* z-index: -1; */
+  background-image:url(../../images/sara_1.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  background-size:50%;
 }
 
 .teamboxweb2 {
-  padding-left: 15vw;
-  padding-right: 15vw;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: wrap;
+  padding-left:15vw;
+  padding-right:15vw;
+  margin:auto;
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-flow:wrap;
 }
 
 .teamboxweb {
-  padding-left: 15vw;
-  padding-right: 15vw;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  padding-left:15vw;
+  padding-right:15vw;
+  margin:auto;
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-between;
 }
 
-
-
 .pictureboxweb2 {
-  display: block;
-  flex-flow: column;
-  justify-content: space-around;
-  width: 100%;
-  text-align: center;
-  background-color: white;
+  display:block;
+  flex-flow:column;
+  justify-content:space-around;
+  width:100%;
+  text-align:center;
+  background-color:white;
 }
 
 .teammemberdiv {
-  background-color: white;
-  padding-top: 4vw;
-  width: 30%;
-  margin: 1vw;
-  transition: background 0.2s ease-in-out,
-  width 1s ease-in,
-  height 1s linear,
-  border-radius 1s ease-in-out;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color:white;
+  padding-top:4vw;
+  width:30%;
+  margin:1vw;
+  transition:background 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+  -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
 }
 
 .teammemberdiv:hover {
-  -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
+  -webkit-transform:scale(1.05,1.05);
+  transform:scale(1.05,1.05);
 }
 
 .pictureboxweb {
-  padding-top: 11vw;
-  height: 22vw;
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-  text-align: center;
-  background-color: white;
+  padding-top:11vw;
+  height:22vw;
+  display:flex;
+  flex-flow:column;
+  width:100%;
+  text-align:center;
+  background-color:white;
 }
 
 .teammemberinside {
-  width: 100%;
-  font-size: 1.5vw;
-  height: 25vw;
-  padding: 1vw;
-  margin-top: -15vw;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-
+  width:100%;
+  font-size:1.5vw;
+  height:25vw;
+  padding:1vw;
+  margin-top:-15vw;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-between;
 }
 
-
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
   .teamboxweb {
-    padding-left: 0vw;
-    padding-right: 0vw;
-    margin: auto;
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
+    padding-left:0vw;
+    padding-right:0vw;
+    margin:auto;
+    width:90%;
+    height:auto;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
   }
 
   .teammemberdiv {
-    background-color: white;
-    padding-top: 4vw;
-    width: 45%;
-    margin-bottom: 4vw;
+    background-color:white;
+    padding-top:4vw;
+    width:45%;
+    margin-bottom:4vw;
   }
 
   .pictureboxweb {
-    padding-top: 25vw;
-    height: 42vw;
-    font-size: 3vw;
+    padding-top:25vw;
+    height:42vw;
+    font-size:3vw;
   }
 
   .teammemberinside {
-    width: 100%;
-    font-size: 3vw;
-    height: 40vw;
-    padding: 1vw;
-    margin-top: -25vw;
+    width:100%;
+    font-size:3vw;
+    height:40vw;
+    padding:1vw;
+    margin-top:-25vw;
   }
 
   .hashtagstext {
-    font-family: Futura Medium Italic;
-    text-align: left;
-    font-size: 1.5vw;
+    font-family:Futura Medium Italic;
+    text-align:left;
+    font-size:1.5vw;
   }
 
   .headertextbox {
-    width: 90%;
-    margin: auto;
-    padding-top: 5vw;
-    color: white;
+    width:90%;
+    margin:auto;
+    padding-top:5vw;
+    color:white;
   }
-
 }
 
-
-@media (min-width: 1000px) {
-
-
-
-}
+@media (min-width:1000px) {}

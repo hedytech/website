@@ -1,547 +1,428 @@
-/* .beige {
-  padding-left: 10px;
-  padding-right: 10px;
-} */
-
-
-
-
 .headerpic2 {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  height: auto;
-  width: 100%;
-  background-attachment: fixed;
-  z-index: -1;
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  height:auto;
+  width:100%;
+  background-attachment:fixed;
+  z-index:-1;
 }
 
-
-
-@media (max-width: 1000px) {
-  /* .threeareas {
-    display: none;
-  } */
-
+@media (max-width:1000px) {
   #hedy {
-    background-image: url(../../images/hedy4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    z-index: -1;
+    background-image:url(../../images/hedy4.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
   }
 
   #innovation {
-    background-image: url(../../images/innovationstudiopic.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    z-index: -1;
+    background-image:url(../../images/innovationstudiopic.jpg);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:-1;
   }
 
-
-
   #academy {
-    background-image: url(../../images/code2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* border-radius: 10px; */
-    z-index: -1;
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
   }
 
   #academy3 {
-    background-image: url(../../images/code2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
 
   #services {
-    background-image: url(../../images/wall.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/wall.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
 
-
   #innovation {
-    background-image: url(../../images/startup.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/startup.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
 
   #headerpic {
-    background-image: url(../../images/loadingpage2.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    z-index: -1;
+    background-image:url(../../images/loadingpage2.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    z-index:-1;
   }
 
   #wearehedy {
-    background-image: url(../../images/poster.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    z-index: -1;
+    background-image:url(../../images/poster.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
   }
 
   #gettoknow {
-    background-image: url(../../images/loadingpage1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    /* background-attachment: fixed; */
-    z-index: -1;
+    background-image:url(../../images/loadingpage1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    z-index:-1;
   }
 
   #whatwedo {
-    background-image: url(../../images/loadingpage3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    z-index: -1;
+    background-image:url(../../images/loadingpage3.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
   }
 
   #kotlin {
-    background-image: url(../../images/kotlin.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
-
 
   #kotlin2 {
-    background-image: url(../../images/kotlin.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    /* z-index: -1; */
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
   }
-
-
-
 
   .threeareas {
-    flex-flow: column;
-    margin-bottom: 100px;
+    flex-flow:column;
+    margin-bottom:100px;
   }
-  .threeareassmalltext {
 
-    font-family: Futura Thin;
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
-    letter-spacing: 0px;
-    /* color: white; */
+  .threeareassmalltext {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-left:40px;
+    padding-right:40px;
+    letter-spacing:0px;
   }
 
   .threeareassmalltext2 {
-    font-family: Futura Thin;
-    text-align: left;
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 45px;
-    letter-spacing: 0px;
-    opacity: 1;
-    /* color: white; */
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:45px;
+    letter-spacing:0px;
+    opacity:1;
   }
 
   .threeareassmalltext3 {
-    font-family: Futura Thin;
-    text-align: left;
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    letter-spacing: 0px;
-    /* color: white; */
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:20px;
+    letter-spacing:0px;
   }
 
-
   #academy {
-    background-image: url(../../images/code2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* border-radius: 10px; */
-    z-index: -1;
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
   }
 
   #academy3 {
-    background-image: url(../../images/code2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
-
-
-
-
-
-
-
-
 
   #kotlin {
-    background-image: url(../../images/kotlin.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
   }
 
-
   #kotlin2 {
-    background-image: url(../../images/kotlin.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    /* z-index: -1; */
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
   }
 
   .picturedivwhatwedo {
-    width: 70%;
-    margin: auto;
-    border-radius: 10px;
-    padding: 10px;
-    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width:70%;
+    margin:auto;
+    border-radius:10px;
+    padding:10px;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
   }
 
-  /* .picturedivwhatwedo:hover {
-    width: 30%;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: white;
-    padding: 10px;
-    -webkit-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
-  } */
-
-
   .onearea {
-    height: 800px;
-    background-color: rgba(255,255,255, 0.3);
-
-    padding: 2vw;
-    /* margin: 10px; */
-    text-align: center;
-    font-family: Arca Majora3;
-    letter-spacing: 5px;
-    /* background: white; */
-    /* border-radius: 10px; */
-    transition: background 0.2s ease-in-out,
-    width 1s ease-in,
-    height 1s linear,
-    border-radius 1s ease-in-out;
-    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height:800px;
+    background-color:rgba(255,255,255,0.3);
+    padding:2vw;
+    text-align:center;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition:background 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
   }
 
   .onearea:hover {
-    box-shadow: 0 0 20px rgba(33,33,33,.2);
-    -webkit-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
+    box-shadow:0 0 20px rgba(33,33,33,.2);
+    -webkit-transform:scale(1.05,1.05);
+    transform:scale(1.05,1.05);
   }
 
   .opacity05 {
-    padding-bottom: 40px;
-    height: 700px;
-    /* border-radius: 10px; */
-    background-color: rgba(255,255,255, 0.8);
-    /* opacity: 0.5; */
-    /* -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); */
+    padding-bottom:40px;
+    height:700px;
+    background-color:rgba(255,255,255,0.8);
   }
 
-  .opacity05:hover {
-  /* -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05); */
-  }
+  .opacity05:hover {}
 
   .hedytexttilt {
-    transform: rotate(-10deg);
-    text-align: left;
-    margin-left: 60px;
-    font-family: River Jade;
-    margin-bottom: -50px;
-    letter-spacing: 0;
-    color: #FE7E83;
-    font-size: 120px;
-    margin-top: 15px;
+    transform:rotate(-10deg);
+    text-align:left;
+    margin-left:60px;
+    font-family:River Jade;
+    margin-bottom:-50px;
+    letter-spacing:0;
+    color:#FE7E83;
+    font-size:120px;
+    margin-top:15px;
   }
-
-
-
 }
 
-
-@media (min-width: 1000px) {
-
+@media (min-width:1000px) {
   .threeareas {
-    width: 100%;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    /* background-color: white; */
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
+    width:100%;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:100px;
   }
 
-.threeareassmalltext {
-  font-family: Futura Thin;
-  text-align: left;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  letter-spacing: 0px;
-}
+  .threeareassmalltext {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-left:1vw;
+    padding-right:1vw;
+    letter-spacing:0px;
+  }
 
-.threeareassmalltext2 {
-  font-family: Futura Thin;
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 45px;
-  letter-spacing: 0px;
-  opacity: 1;
-}
+  .threeareassmalltext2 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:40px;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom:45px;
+    letter-spacing:0px;
+    opacity:1;
+  }
 
-.threeareassmalltext3 {
-  font-family: Futura Thin;
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 20px;
-  letter-spacing: 0px;
-}
+  .threeareassmalltext3 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:40px;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom:20px;
+    letter-spacing:0px;
+  }
 
+  #innovation {
+    background-image:url(../../images/innovationstudiopic.jpg);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:-1;
+  }
 
-#innovation {
-  background-image: url(../../images/innovationstudiopic.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  z-index: -1;
-}
+  #academy {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
 
+  #academy3 {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
+  #services {
+    background-image:url(../../images/wall.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#academy {
-  background-image: url(../../images/code2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* border-radius: 10px; */
-  z-index: -1;
-}
+  #innovation {
+    background-image:url(../../images/startup.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#academy3 {
-  background-image: url(../../images/code2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  #headerpic {
+    background-image:url(../../images/loadingpage2.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#services {
-  background-image: url(../../images/wall.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  #hedy {
+    background-image:url(../../images/hedy4.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
+  #wearehedy {
+    background-image:url(../../images/poster.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#innovation {
-  background-image: url(../../images/startup.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  #gettoknow {
+    background-image:url(../../images/loadingpage1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#headerpic {
-  background-image: url(../../images/loadingpage2.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  #whatwedo {
+    background-image:url(../../images/loadingpage3.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
-#hedy {
-  background-image: url(../../images/hedy4.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  #kotlin {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
 
+  #kotlin2 {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
 
-#wearehedy {
-  background-image: url(../../images/poster.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  .picturedivwhatwedo {
+    width:30%;
+    margin:10px;
+    border-radius:10px;
+    padding:10px;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
 
-#gettoknow {
-  background-image: url(../../images/loadingpage1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  .onearea {
+    height:500px;
+    background-color:rgba(255,255,255,0.3);
+    padding:2vw;
+    text-align:center;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition:background 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
 
-#whatwedo {
-  background-image: url(../../images/loadingpage3.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  .onearea:hover {
+    box-shadow:0 0 20px rgba(33,33,33,.2);
+    -webkit-transform:scale(1.05,1.05);
+    transform:scale(1.05,1.05);
+  }
 
-#kotlin {
-  background-image: url(../../images/kotlin.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  .opacity05 {
+    padding-bottom:40px;
+    height:450px;
+    background-color:rgba(255,255,255,0.8);
+  }
 
+  .opacity05:hover {}
 
-#kotlin2 {
-  background-image: url(../../images/kotlin.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* background-attachment: fixed; */
-  /* z-index: -1; */
-}
+  .hedytexttilt {
+    transform:rotate(-10deg);
+    text-align:left;
+    margin-left:50px;
+    font-family:River Jade;
+    margin-bottom:-20px;
+    letter-spacing:0;
+    color:#FE7E83;
+    font-size:70px;
+    margin-top:0;
+  }
 
-.picturedivwhatwedo {
-  width: 30%;
-  margin: 10px;
-  border-radius: 10px;
-  /* background-color: white; */
-  padding: 10px;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+  .whatwedodiv {
+    margin:30px;
+    padding-top:50px;
+  }
 
-/* .picturedivwhatwedo:hover {
-  width: 30%;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: white;
-  padding: 10px;
-  -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
-} */
-
-
-.onearea {
-  height: 500px;
-  background-color: rgba(255,255,255, 0.3);
-
-  padding: 2vw;
-  /* margin: 10px; */
-  text-align: center;
-  font-family: Arca Majora3;
-  letter-spacing: 5px;
-  /* background: white; */
-  /* border-radius: 10px; */
-  transition: background 0.2s ease-in-out,
-  width 1s ease-in,
-  height 1s linear,
-  border-radius 1s ease-in-out;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.onearea:hover {
-  box-shadow: 0 0 20px rgba(33,33,33,.2);
-  -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
-}
-
-.opacity05 {
-  padding-bottom: 40px;
-  height: 450px;
-  /* border-radius: 10px; */
-  background-color: rgba(255,255,255, 0.8);
-  /* opacity: 0.5; */
-  /* -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); */
-}
-
-.opacity05:hover {
-/* -webkit-transform: scale(1.05, 1.05);
-transform: scale(1.05, 1.05); */
-}
-
-.hedytexttilt {
-  transform: rotate(-10deg);
-  text-align: left;
-  margin-left: 50px;
-  font-family: River Jade;
-  margin-bottom: -20px;
-  letter-spacing: 0;
-  color: #FE7E83;
-  font-size: 70px;
-  margin-top: 0;
-}
-
-
-
-.whatwedodiv {
-  /* background-color: white; */
-  margin: 30px;
-  /* background-color: rgba(255, 255, 255, 0.9); */
-  padding-top: 50px;
-}
-
-.arcamajora2 {
-  font-family: Arca Majora3;
-  /* margin-left: 20px; */
-  font-size: 50px;
-  text-align: center;
-  letter-spacing: 5;
-}
-
-
-
+  .arcamajora2 {
+    font-family:Arca Majora3;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:5;
+  }
 }

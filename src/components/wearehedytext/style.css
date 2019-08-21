@@ -1,26 +1,21 @@
 .wearehedytextbox {
-  /* margin-top: 50px; */
-  /* height: 400px; */
-  width: 100%;
-  margin: auto;
-  font-family: Futura Medium Italic;
-  text-align: center;
+  width:100%;
+  margin:auto;
+  font-family:Futura Medium Italic;
+  text-align:center;
 }
 
 .wearehedytext {
-
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  text-align: center;
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  /* height: 400px; */
-  margin: auto;
-  font-size: 40px;
-  background-color: rgba(255,255,255, 0.3);
-  color: white;
-
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  text-align:center;
+  padding-left:250px;
+  padding-right:250px;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin:auto;
+  font-size:40px;
+  background-color:rgba(255,255,255,0.3);
+  color:white;
 }
