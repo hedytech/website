@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import Hamburgermenu from './components/hamburgermenu';
 import Fotnot from './components/fotnot';
+import ScrollToTop from './components/scrolltotop';
 import ServicesPage from './pages/servicespage';
 import AcademyPage from './pages/academypage';
 import InnovationStudioPage from './pages/innovationstudiopage';
@@ -17,7 +18,7 @@ class App extends React.Component {
   render () {
     return (
       <HashRouter>
-        <div>
+        <ScrollToTop>
           <Hamburgermenu />
           <Route
             exact
@@ -62,7 +63,7 @@ class App extends React.Component {
             component={PrivacyPolicyPage}
           />
           <Fotnot />
-        </div>
+        </ScrollToTop>
       </HashRouter>
     );
   }
