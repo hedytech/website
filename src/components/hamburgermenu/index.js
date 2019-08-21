@@ -3,23 +3,9 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 class Hamburgermenu extends React.Component {
-  componentDidMount () {
-    const menu = document.getElementById('menu');
-    menu.addEventListener('click', this.handleMenuClickMobile);
-
-    const webmenu = document.getElementById('webmenu');
-    webmenu.addEventListener('click', this.handleMenuClick);
-  }
-
-  handleMenuClickMobile = () => {
-    const closeIcon = document.getElementById('closeIconMobile');
-    closeIcon.checked = false;
-  }
-
-  handleMenuClick = () => {
-    const closeIcon = document.getElementById('closeIcon');
-    closeIcon.checked = false;
-  }
+  state = {
+    menuOpen: false
+  };
 
   render () {
     return (
@@ -34,50 +20,64 @@ class Hamburgermenu extends React.Component {
                 <div className='logohamburgermenu' id='blackhylogo' />
               </Link>
 
+              <label for='closeIconMobile' style={{ visibility: 'hidden' }}>Close</label>
+
               <div className='boxbehindhamburger' id='menuToggle'>
                 <nav role='navigation'>
                   <div id='menuToggle'>
-                    <input id='closeIconMobile' type='checkbox' />
+                    <input id='closeIconMobile' name='closeIconMobile' type='checkbox' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} />
                     <span />
                     <span />
                     <span />
-                    <ul id='menu'>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/'
-                      >
-                        <p>HOME</p>
-                      </Link>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/services'
-                      >
-                        <p>SERVICES</p>
-                      </Link>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/academy'
-                      >
-                        <p>ACADEMY</p>
-                      </Link>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/innovationstudio'
-                      >
-                        <p>INNOVATION STUDIO</p>
-                      </Link>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/team'
-                      >
-                        <p>TEAM</p>
-                      </Link>
-                      <Link
-                        style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/about'
-                      >
-                        <p>ABOUT</p>
-                      </Link>
+                    <ul id='menu' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })}>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/'
+                        >
+                          <p>HOME</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/services'
+                        >
+                          <p>SERVICES</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/academy'
+                        >
+                          <p>ACADEMY</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/innovationstudio'
+                        >
+                          <p>INNOVATION STUDIO</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/team'
+                        >
+                          <p>TEAM</p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          style={{ textDecoration: 'none', color: '#ffffff' }}
+                          to='/about'
+                        >
+                          <p>ABOUT</p>
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </nav>
