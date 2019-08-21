@@ -1,13 +1,10 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class PrivacyPolicyPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
-
         <div className='abouttextthinleftweb' id='backgroundcolorwhiteblack'>
           <h1>Privacy policy - Hedy Academy</h1>
           <p>Last revised 2019-03-31</p>

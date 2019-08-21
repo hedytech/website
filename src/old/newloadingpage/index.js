@@ -1,14 +1,12 @@
 import React from 'react';
 import './style.css';
-import Header from '../header';
-import ScrollToTopOnMount from '../scrolltotoponmount';
+import Header from '../../components/header';
 
 class Newloadingpage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
         <div id='headerpic'>
-          <ScrollToTopOnMount />
 
           <Header />
           <div />

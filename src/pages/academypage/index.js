@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './style.css';
 import Contactbutton from '../../components/contactbutton';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 import Tellmemorebutton from '../../components/tellmemorebutton';
 import Comingsoon from '../../components/comingsoon';
 
@@ -11,8 +10,6 @@ class AcademyPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
-
         <div className='mobile'>
           <div id='academy3'>
 

@@ -6,7 +6,6 @@ import Emelie from '../../components/emelie';
 import Hanna from '../../components/hanna';
 import Oden from '../../components/oden';
 import Sarah from '../../components/sarah';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class TeamPage extends React.Component {
   constructor (props) {
@@ -48,7 +47,6 @@ class TeamPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
         <div className='headerpic2'>
 
           <div className='mobile'>

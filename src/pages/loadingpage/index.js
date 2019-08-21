@@ -2,7 +2,6 @@ import React from 'react';
 import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
 import Header from '../../components/header';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 import '../../components/introbox/style.css';
 import '../../components/whatwedo/style.css';
@@ -34,10 +33,7 @@ class LoadingPage extends React.Component {
   render () {
     return (
       <HashRouter>
-
         <div>
-          <ScrollToTopOnMount />
-
           <div className='mobile'>
             <div>
 

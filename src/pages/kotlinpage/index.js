@@ -1,14 +1,11 @@
 import React from 'react';
 import './style.css';
 import Interest from '../../components/interest';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class KotlinPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
-
         <div className='mobile'>
 
           <div id='kotlin'>

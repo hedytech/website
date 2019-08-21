@@ -1,14 +1,11 @@
 import React from 'react';
 import './style.css';
 import Getintouch from '../../components/getintouch';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class InnovationStudioPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
-
         <div className='mobile'>
 
           <div id='innovation'>

@@ -1,15 +1,12 @@
 import React from 'react';
 import './style.css';
 import Contactbutton from '../../components/contactbutton';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class ServicesPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
         <div className='mobile'>
-
           <div id='services'>
             <div id='opacitydark'>
 

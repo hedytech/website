@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class Emelie extends React.Component {
   render () {
     return (

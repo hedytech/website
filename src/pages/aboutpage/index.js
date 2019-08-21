@@ -1,12 +1,10 @@
 import React from 'react';
 import './style.css';
-import ScrollToTopOnMount from '../../components/scrolltotoponmount';
 
 class AboutPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <ScrollToTopOnMount />
         <div className='headerpic2'>
 
           <div className='mobile'>
