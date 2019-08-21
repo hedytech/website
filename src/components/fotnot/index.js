@@ -74,10 +74,10 @@ class Fotnot extends React.Component {
           </div>
 
           <div className='fotnotlogos'>
-            <a href='https://www.instagram.com/hedy.tech'>
+            <a href='https://www.instagram.com/hedy.tech' title='Instagram'>
               <div className='logobox' id='instagramlogo' />
             </a>
-            <a href='https://www.linkedin.com/company/hedy-tech'>
+            <a href='https://www.linkedin.com/company/hedy-tech' title='LinkedIn'>
               <div className='logobox' id='linkedinlogo' />
             </a>
           </div>

@@ -93,6 +93,7 @@ class Hamburgermenu extends React.Component {
               <Link
                 style={{ textDecoration: 'none', color: 'black', cursor: 'pointer' }}
                 to='/'
+                title='Hedy'
               >
                 <div id='blackhylogo' />
               </Link>
