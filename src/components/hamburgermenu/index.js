@@ -4,20 +4,20 @@ import './style.css';
 
 class Hamburgermenu extends React.Component {
   componentDidMount () {
-    var menu = document.getElementById('menu');
+    const menu = document.getElementById('menu');
     menu.addEventListener('click', this.handleMenuClickMobile);
 
-    var webmenu = document.getElementById('webmenu');
+    const webmenu = document.getElementById('webmenu');
     webmenu.addEventListener('click', this.handleMenuClick);
   }
 
   handleMenuClickMobile = () => {
-    var closeIcon = document.getElementById('closeIconMobile');
+    const closeIcon = document.getElementById('closeIconMobile');
     closeIcon.checked = false;
   }
 
   handleMenuClick = () => {
-    var closeIcon = document.getElementById('closeIcon');
+    const closeIcon = document.getElementById('closeIcon');
     closeIcon.checked = false;
   }
 
@@ -27,7 +27,6 @@ class Hamburgermenu extends React.Component {
         <div className='mobile'>
           <div className='pagemargin'>
             <div className='menuboarddiv'>
-
               <Link
                 style={{ textDecoration: 'none', color: '#ffffff' }}
                 to='/'
@@ -90,7 +89,6 @@ class Hamburgermenu extends React.Component {
 
         <div className='web'>
           <div className='webmenuboarddiv'>
-
             <div className='webhedylogotextbox'>
               <Link
                 style={{ textDecoration: 'none', color: 'black', cursor: 'pointer' }}

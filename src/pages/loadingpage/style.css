@@ -10,7 +10,7 @@
   cursor:pointer;
 }
 
-span {
+div > span {
   display:block;
   padding:1vw 4vw;
 }
@@ -25,8 +25,8 @@ span {
   background:#fff;
 }
 
-span::before,
-span::after {
+div span::before,
+div span::after {
   content:"";
   width:2px;
   height:0;
@@ -160,7 +160,7 @@ span::after {
 
 .title2 a:hover { background-position:-99.99% 0; }
 
-.title3 a {
+.title3 span {
   cursor:pointer;
   background-image:linear-gradient(to right,rgba(241,136,138,0) 50%,#F1888A 50%);
   background-position:-0% 0;
@@ -170,7 +170,7 @@ span::after {
   transition:background-position 1s ease-out;
 }
 
-.title3 a:hover { background-position:-99.99% 0; }
+.title3 span:hover { background-position:-99.99% 0; }
 
 .gradient {
   background-image:linear-gradient(to left,transparent,transparent 50%,rgb(3,49,64,0.5) 50%,rgb(3,49,64,0.5));

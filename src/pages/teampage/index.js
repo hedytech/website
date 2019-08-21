@@ -8,17 +8,14 @@ import Oden from '../../components/oden';
 import Sarah from '../../components/sarah';
 
 class TeamPage extends React.Component {
-  constructor (props) {
-    super(props);
-    this.state = {
-      isHiddenFirst: true,
-      isHiddenSecond: true,
-      isHiddenThird: true,
-      isHiddenFourth: true,
-      isHiddenFifth: true,
-      isHiddenSixth: true
-    };
-  }
+  state = {
+    isHiddenFirst: true,
+    isHiddenSecond: true,
+    isHiddenThird: true,
+    isHiddenFourth: true,
+    isHiddenFifth: true,
+    isHiddenSixth: true
+  };
 
   handleFirst = () => {
     this.setState({ isHiddenFirst: !this.state.isHiddenFirst });

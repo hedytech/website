@@ -10,12 +10,12 @@ class Emelie extends React.Component {
           <div className='teammemberinside' id='backgroundcolorwhiteblack'>
             <div className='aboutpersontextcenter'>
               <h5 className='title3'>
-                <a href='#'>
+                <span>
             Emelie has a skill for finding the key parameters to enable growth,
             business success and create efficient and successful teams.
             She is a strong leader who sets strategies and hands-on implement them
             to secure a company’s vision is put into reality.
-                </a>
+                </span>
               </h5>
             </div>
             <p className='hashtagstext'>#leadership #talentmanagement #agile #digitalstrategist #businessadvisor #profitablegrowth #businessdevelopment #changemanagement</p>
@@ -30,12 +30,13 @@ class Emelie extends React.Component {
             <div className='teammemberinside' id='backgroundcolorwhiteblack'>
               <div className='aboutpersontextcenter'>
                 <h5 className='title3'>
-                  <a href='#'>
+                  <span>
             Emelie has a skill for finding the key parameters to enable growth,
             business success and create efficient and successful teams.
             She is a strong leader who sets strategies and hands-on implement them
             to secure a company’s vision is put into reality.
-                  </a>
+                  </span>
+
                 </h5>
               </div>
               <p className='hashtagstext'>#leadership #talentmanagement #agile #digitalstrategist #businessadvisor #profitablegrowth #businessdevelopment #changemanagement</p>

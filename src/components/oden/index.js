@@ -10,12 +10,13 @@ class Oden extends React.Component {
           <div className='teammemberinside' id='backgroundcolorwhiteblack'>
             <div className='aboutpersontextcenter'>
               <h5 className='title3'>
-                <a href='#'>
+                <span>
                   Oden is a solution oriented developer who loves to enable business through tech.
                   He is a true innovator with experience from both large teams and own projects.
                   He has a great skill in combining hardware with code and take something from an idea to a real product.
                   The ability to quickly learn is one of his most valuable strength.
-                </a>
+                </span>
+
               </h5>
             </div>
             <p className='hashtagstext'>#programmer #C #C++ ##IoT #embeddedsystems #backend</p>
@@ -30,12 +31,13 @@ class Oden extends React.Component {
             <div className='teammemberinside' id='backgroundcolorwhiteblack'>
               <div className='aboutpersontextcenter'>
                 <h5 className='title3'>
-                  <a href='#'>
+                  <span>
             Oden is a solution oriented developer who loves to enable business through tech.
             He is a true innovator with experience from both large teams and own projects.
             He has a great skill in combining hardware with code and take something from an idea to a real product.
             The ability to quickly learn is one of his most valuable strength.
-                  </a>
+                  </span>
+
                 </h5>
               </div>
               <p className='hashtagstext'>#programmer #C #C++ ##IoT #embeddedsystems #backend</p>

@@ -5,8 +5,6 @@ import { TweenLite, Linear } from 'gsap';
 class Header extends React.Component {
   constructor (props) {
     super(props);
-    this.state = {
-    };
     this.updateLine();
   }
 

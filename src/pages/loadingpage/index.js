@@ -10,13 +10,10 @@ import '../../components/wearehedytext/style.css';
 import '../../components/hedylamarrintro/style.css';
 
 class LoadingPage extends React.Component {
-  constructor (props) {
-    super(props);
-    this.state = {
-      isHidden: true,
-      isHiddenTwo: true
-    };
-  }
+  state = {
+    isHidden: true,
+    isHiddenTwo: true
+  };
 
   myFunction = () => {
     this.setState({
