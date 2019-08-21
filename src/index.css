@@ -5,7 +5,7 @@ a { text-decoration:none; }
   animation-duration:5s;
 }
 
-@-webkit-keyframes test {
+@keyframes test {
   0% { opacity:0; }
   50%, 100% { opacity:1; }
 }
@@ -38,7 +38,7 @@ h1:hover+.underline { transform:scale(1); }
   z-index:-1;
 }
 
-@-webkit-keyframes fadeinfirst {
+@keyframes fadeinfirst {
   0% { opacity:0; }
   50%, 100% { opacity:1; }
 }
@@ -108,7 +108,7 @@ body {
 }
 
 #growdiv {
-  transition:background 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+  transition: 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
   -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
   transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
 }
@@ -315,8 +315,6 @@ body {
   font-size:40px;
   text-align:center;
 }
-
-.whatwedoheadertext {}
 
 .whatwedosmalltext {
   font-family:Futura Medium Italic;
@@ -636,7 +634,7 @@ mark.italic {
     height:200px;
     width:50px;
     border-radius:0;
-    transition:background 2s ease-in-out,width 4s ease-in,height 1s linear;
+    transition: 2s ease-in-out,width 4s ease-in,height 1s linear;
   }
 
   .rectangulardivlarge2:hover {
