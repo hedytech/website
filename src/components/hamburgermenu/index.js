@@ -111,42 +111,54 @@ class Hamburgermenu extends React.Component {
                   <input id='closeIcon' type='checkbox' />
 
                   <ul id='webmenu'>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/'
-                    >
-                      <p>HOME</p>
-                    </Link>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/services'
-                    >
-                      <p>SERVICES</p>
-                    </Link>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/academy'
-                    >
-                      <p>ACADEMY</p>
-                    </Link>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/innovationstudio'
-                    >
-                      <p>INNOVATION STUDIO</p>
-                    </Link>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/team'
-                    >
-                      <p>TEAM</p>
-                    </Link>
-                    <Link
-                      style={{ textDecoration: 'none', color: '#ffffff' }}
-                      to='/about'
-                    >
-                      <p>ABOUT</p>
-                    </Link>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/'
+                      >
+                        <p>HOME</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/services'
+                      >
+                        <p>SERVICES</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/academy'
+                      >
+                        <p>ACADEMY</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/innovationstudio'
+                      >
+                        <p>INNOVATION STUDIO</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/team'
+                      >
+                        <p>TEAM</p>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        style={{ textDecoration: 'none', color: '#ffffff' }}
+                        to='/about'
+                      >
+                        <p>ABOUT</p>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </nav>

@@ -3,7 +3,6 @@ import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
 import Header from '../../components/header';
 
-
 class LoadingPage extends React.Component {
   state = {
     isHidden: true,
