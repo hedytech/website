@@ -29,7 +29,7 @@ class AcademyPage extends React.Component {
             </div>
 
             <div className='academyteambox' id='backgroundcolordarkbluewhite'>
-              <div className='academytextthin' id=''>
+              <div className='academytextthin'>
                 <h4>With focus on modern leadership and technology,
             Hedy builds and increases the competencies of people and
             organizations to answer up to the requirements of the future.
@@ -151,7 +151,7 @@ class AcademyPage extends React.Component {
             <div className='academyteambox' id='backgroundcolordarkbluewhite'>
 
               <div className='academytextthin2' id='colorwhite'>
-                <h4 className='textboxheader' id=''>TYPE OF COURSES</h4>
+                <h4 className='textboxheader'>TYPE OF COURSES</h4>
                 <div className='bulletpoints'>
                   <ul id='nopaddingleft'>
                     <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
@@ -163,7 +163,7 @@ class AcademyPage extends React.Component {
               </div>
 
               <div className='academytextthin2' id='paddingbottom'>
-                <h4 className='textboxheader' id=''>TARGET GROUP</h4>
+                <h4 className='textboxheader'>TARGET GROUP</h4>
                 <div>
                   <h4 id='nomargin'> Driven fast learners, developers, board members, management team members,
            people with a passion for tech who want to change industry, entrepreneurs, among others...

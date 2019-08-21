@@ -31,8 +31,8 @@ class HedyPage extends React.Component {
 
                 <div className='academyteambox' id='backgroundcoloropacitywhite'>
                   <div className='academytextthin' id='colorblack'>
-                    <div id=''>
-                      <h4 id=''>
+                    <div>
+                      <h4>
                         <p>Hedylity Technology is named after Hedy Lamarr,
                   the brain behind frequency hopping.
                   Her invention came from wanting to think of something to stop Hitler
@@ -77,7 +77,7 @@ class HedyPage extends React.Component {
                     <div className='academyteambox' id='backgroundcoloropacitywhite5'>
                       <div className='academytextthin' id='colorwhite'>
                         <div id='paddingleftright'>
-                          <h5 id=''>
+                          <h5>
                             <p>Hedylity Technology is named after Hedy Lamarr,
                       the brain behind frequency hopping.
                       Her invention came from wanting to think of something to stop Hitler

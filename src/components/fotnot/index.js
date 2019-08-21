@@ -99,7 +99,7 @@ class Fotnot extends React.Component {
             <div className='fotnotcontact2' id='arcamajoranospace'>
               <div id='colorpink'>
                 <div id='arcamajora'>
-                  <h5 className='' id='nomargintoplittlebottom'>HEDYLITY TECHNOLOGY</h5>
+                  <h5 id='nomargintoplittlebottom'>HEDYLITY TECHNOLOGY</h5>
                 </div>
               </div>
               <h6 id='nomargintoplittlebottom'>Malmskillnadsgatan 32 5, 111 51 Stockholm</h6>

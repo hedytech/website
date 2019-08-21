@@ -27,9 +27,9 @@ class ServicesPage extends React.Component {
               <div className='justifycenter'>
 
                 <div className='academyteambox' id='backgroundcolordarkbluewhite'>
-                  <div className='academytextthin' id=''>
-                    <div id=''>
-                      <h4 id=''>
+                  <div className='academytextthin'>
+                    <div>
+                      <h4>
                 We accelerate businesses with skills and solutions
                 for a profitable digitalization journey. With forefront technology skills and strategic minds
                 Hedy supports small, mid-sized and large companies in
@@ -44,7 +44,7 @@ class ServicesPage extends React.Component {
 
                   <div className='academytextthin2' id='colorwhite'>
                     <h4 className='textboxheader' id='nomargintoplittlebottom'>ROLES WE HAVE TAKEN</h4>
-                    <h4 id=''>
+                    <h4>
                   Quality Assurance, Tech architect,
                   Agile coach, Tech educator, Brand developer,
                   Growth hacker,Backend developer,
@@ -59,7 +59,7 @@ class ServicesPage extends React.Component {
                   </div>
 
                   <div className='academytextthin2' id='colorwhite'>
-                    <h4 className='textboxheader' id=''>TYPE OF SERVICES</h4>
+                    <h4 className='textboxheader'>TYPE OF SERVICES</h4>
                     <div id='marginbottom'>
                       <h4>
                         <ul id='nopaddingleft'>
@@ -102,7 +102,7 @@ class ServicesPage extends React.Component {
                       <div className='academyteambox' id='backgroundcolordarkbluepink'>
                         <div className='academytextthin' id='colorwhite'>
                           <div id='paddingleftright'>
-                            <h5 id=''>
+                            <h5>
               We accelerate businesses with skills and solutions
               for a profitable digitalization journey. With forefront technology skills and strategic minds
               Hedy supports small, mid-sized and large companies in

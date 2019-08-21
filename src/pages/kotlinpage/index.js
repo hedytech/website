@@ -25,7 +25,7 @@ class KotlinPage extends React.Component {
 
                     <h1 id='arcamajora'>ACADEMY</h1>
                   </div>
-                  <div className='academytextthin' id=''>
+                  <div className='academytextthin'>
                     <h4>This course is formed as workshop were our
         highly skilled educator will lead you thru a
         fixed agenda to get as much knowledge as possible
@@ -45,7 +45,7 @@ class KotlinPage extends React.Component {
 
               <div className='academyteambox'>
 
-                <div className='academytextthin2' id=''>
+                <div className='academytextthin2'>
                   <h4 className='textboxheader' id='nomarginbottom'>OBJECTIVES</h4>
                   <div>
                     <h4 id='nomargintop'>After taking the course you should be able to.</h4>
@@ -62,8 +62,8 @@ class KotlinPage extends React.Component {
                   </div>
                 </div>
 
-                <div className='academytextthin2' id=''>
-                  <h4 className='textboxheader' id=''>REQUIREMENTS</h4>
+                <div className='academytextthin2'>
+                  <h4 className='textboxheader'>REQUIREMENTS</h4>
                   <div>
                     <div className='bulletpoints'>
                       <ul id='nopaddingleft'>
@@ -123,15 +123,15 @@ class KotlinPage extends React.Component {
                   </h4>
                 </div>
                 <div className='academytextthin2'>
-                  <h4 id=''>PREREQUISITES</h4>
+                  <h4>PREREQUISITES</h4>
                   <div>
                     <h4 id='nomargin'>Knowledge of the following concepts in any general programming language:</h4>
                     <ul>
-                      <li id=''> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
+                      <li> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
                     </ul>
                     <h4 id='nomargin'>Preferred knowledge of these concepts and one of these languages:</h4>
                     <ul>
-                      <li id=''> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
+                      <li> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
                     </ul>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ class KotlinPage extends React.Component {
                     <p className='hedytexttiltkotlin'>Hedy</p>
                     <h2 id='arcamajora'>ACADEMY</h2>
                   </div>
-                  <div className='academytextthin' id=''>
+                  <div className='academytextthin'>
                     <h5>This course is formed as workshop were our
         highly skilled educator will lead you thru a
         fixed agenda to get as much knowledge as possible
@@ -186,7 +186,7 @@ class KotlinPage extends React.Component {
 
               <div className='academyteambox'>
 
-                <div className='academytextthin2' id=''>
+                <div className='academytextthin2'>
                   <h6 className='textboxheader' id='nomarginbottom'>OBJECTIVES</h6>
                   <div>
                     <h6 id='nomargin1vw'>After taking the course you should be able to:</h6>
@@ -203,7 +203,7 @@ class KotlinPage extends React.Component {
                   </div>
                 </div>
 
-                <div className='academytextthin2' id=''>
+                <div className='academytextthin2'>
                   <h6 className='textboxheader' id='nomarginbottom'>REQUIREMENTS</h6>
                   <div>
                     <h6 id='nomargin1vw'>Before taking the course you shoud have:</h6>

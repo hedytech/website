@@ -72,7 +72,7 @@ class Header extends React.Component {
         <div>
 
           <div className='web'>
-            <div id=''>
+            <div>
               <div id='headerpic'>
                 <div id='opacitydark'>
 

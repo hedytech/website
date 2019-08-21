@@ -17,7 +17,7 @@ class InnovationStudioPage extends React.Component {
               <div className='areasheader'>
                 <div className='pagemarginweb'>
 
-                  <div className='headertextbox' id=''>
+                  <div className='headertextbox'>
                     <p className='hedytexttiltinnovationlast'>Hedy</p>
 
                     <h1 id='arcamajora'>INNOVATION STUDIO</h1>
@@ -46,7 +46,7 @@ class InnovationStudioPage extends React.Component {
                 <div className='academyteambox2' id='backgroundcolordarkbluewhite'>
 
                   <div className='academytextthin2' id='paddingbottom'>
-                    <h4 className='textboxheader' id=''>OUR OFFER</h4>
+                    <h4 className='textboxheader'>OUR OFFER</h4>
                     <div id='marginbottom2'>
                       <div className='bulletpoints'>
                         <ul id='nopaddingleft'>
@@ -78,7 +78,7 @@ class InnovationStudioPage extends React.Component {
               <div className='areasheader'>
                 <div className='pagemarginweb'>
 
-                  <div className='headertextbox' id=''>
+                  <div className='headertextbox'>
                     <p className='hedytexttiltinnovationlast'>Hedy</p>
 
                     <h1 id='arcamajora'>INNOVATION STUDIO</h1>

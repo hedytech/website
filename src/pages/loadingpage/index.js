@@ -40,13 +40,13 @@ class LoadingPage extends React.Component {
           <ScrollToTopOnMount />
 
           <div className='mobile'>
-            <div className=''>
+            <div>
 
               <Header />
 
               <div className='startdiv' id='colorwhite'>
 
-                <div className='startext' id=''>
+                <div className='startext'>
                   <h4>Hedy focuses on making successful digitalization journeys
           with forefront technology, high-skilled people and an innovative environment.
                   </h4>
@@ -136,7 +136,7 @@ class LoadingPage extends React.Component {
                 </div>
               </div>
 
-              <div className='introdiv2' id=''>
+              <div className='introdiv2'>
 
                 <div className='hedypicturebox2' id='hedyhandsvartbeige' />
                 <div className='missiondiv'>
@@ -149,7 +149,7 @@ class LoadingPage extends React.Component {
               <div id='gettoknow'>
 
                 <div className='whatwedotext2' id='colorwhite'>
-                  <h4 id=''>
+                  <h4>
                     We are in it for the long-run, are you?
                   </h4>
                 </div>
@@ -157,7 +157,7 @@ class LoadingPage extends React.Component {
 
               <div className='startdiv' id='colorwhite'>
 
-                <div className='startext' id=''>
+                <div className='startext'>
                   <h4>We want sustainable, win-win-win-win business relations where the end-customer,
                   the client/partner, Hedy and the world wins on the tech and business solutions
                   we are developing.
@@ -182,8 +182,8 @@ class LoadingPage extends React.Component {
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/team'
                 >
-                  <div className=''>
-                    <div className='whatwedotext5' id=''>
+                  <div>
+                    <div className='whatwedotext5'>
                       <div className='button4'><span><h5 id='nomargin'>get to know our team</h5></span></div>
                     </div>
                   </div>
@@ -210,14 +210,14 @@ class LoadingPage extends React.Component {
           </div>
 
           <div className='web'>
-            <div className=''>
+            <div>
               <Header />
 
               <div className='startdiv' id='colorwhite'>
 
                 <div className='circledivmedium' />
 
-                <div className='startext' id=''>
+                <div className='startext'>
                   <h3>Hedy focuses on making successful digitalization journeys
               with forefront technology, high-skilled people and an innovative environment.
                   </h3>
@@ -307,7 +307,7 @@ class LoadingPage extends React.Component {
                 </div>
               </div>
 
-              <div className='introdiv2' id=''>
+              <div className='introdiv2'>
 
                 <div className='hedypicturebox2' id='hedyhandsvartbeige' />
                 <div className='missiondiv'>
@@ -320,7 +320,7 @@ class LoadingPage extends React.Component {
               <div id='gettoknow'>
 
                 <div className='whatwedotext2' id='colorwhite'>
-                  <h2 id=''>
+                  <h2>
                     We are in it for the long-run, are you?
                   </h2>
                 </div>
@@ -330,7 +330,7 @@ class LoadingPage extends React.Component {
 
                 <div className='circledivmedium' />
 
-                <div className='startext' id=''>
+                <div className='startext'>
                   <h3>
                       We want sustainable, win-win-win-win business relations where the end-customer,
                       the client/partner, Hedy and the world wins on the tech and business solutions
@@ -358,7 +358,7 @@ class LoadingPage extends React.Component {
                   to='/team'
                 >
                   <div className='gradient'>
-                    <div className='whatwedotext5' id=''>
+                    <div className='whatwedotext5'>
                       <div id='backgroundcoloropacitypink' className='button2 btn-3'><span><h5 id='nomargin'>get to know our team</h5></span></div>
                     </div>
                   </div>
