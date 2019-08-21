@@ -3,11 +3,6 @@ import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
 import Header from '../../components/header';
 
-import '../../components/introbox/style.css';
-import '../../components/whatwedo/style.css';
-import '../../components/teamintro/style.css';
-import '../../components/wearehedytext/style.css';
-import '../../components/hedylamarrintro/style.css';
 
 class LoadingPage extends React.Component {
   state = {

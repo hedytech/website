@@ -523,4 +523,816 @@ div span::after {
   }
 }
 
+.headerpic2 {
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+  height:auto;
+  width:100%;
+  background-attachment:fixed;
+  z-index:-1;
+}
+
+@media (max-width:1000px) {
+  #hedy {
+    background-image:url(../../images/hedy4.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #innovation {
+    background-image:url(../../images/innovationstudiopic.jpg);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #academy {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #academy3 {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #services {
+    background-image:url(../../images/wall.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #innovation {
+    background-image:url(../../images/startup.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #headerpic {
+    background-image:url(../../images/loadingpage2.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #wearehedy {
+    background-image:url(../../images/poster.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #gettoknow {
+    background-image:url(../../images/loadingpage1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    z-index:-1;
+  }
+
+  #whatwedo {
+    background-image:url(../../images/loadingpage3.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #kotlin {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #kotlin2 {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+
+  .threeareas {
+    flex-flow:column;
+    margin-bottom:100px;
+  }
+
+  .threeareassmalltext {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-left:40px;
+    padding-right:40px;
+    letter-spacing:0px;
+  }
+
+  .threeareassmalltext2 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:45px;
+    letter-spacing:0px;
+    opacity:1;
+  }
+
+  .threeareassmalltext3 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:20px;
+    letter-spacing:0px;
+  }
+
+  #academy {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #academy3 {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #kotlin {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #kotlin2 {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+
+  .picturedivwhatwedo {
+    width:70%;
+    margin:auto;
+    border-radius:10px;
+    padding:10px;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
+
+  .onearea {
+    height:800px;
+    background-color:rgba(255,255,255,0.3);
+    padding:2vw;
+    text-align:center;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition: 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
+
+  .onearea:hover {
+    box-shadow:0 0 20px rgba(33,33,33,.2);
+    -webkit-transform:scale(1.05,1.05);
+    transform:scale(1.05,1.05);
+  }
+
+  .opacity05 {
+    padding-bottom:40px;
+    height:700px;
+    background-color:rgba(255,255,255,0.8);
+  }
+
+  .hedytexttilt {
+    transform:rotate(-10deg);
+    text-align:left;
+    margin-left:60px;
+    font-family:River Jade;
+    margin-bottom:-50px;
+    letter-spacing:0;
+    color:#FE7E83;
+    font-size:120px;
+    margin-top:15px;
+  }
+}
+
+@media (min-width:1000px) {
+  .threeareas {
+    width:100%;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:100px;
+  }
+
+  .threeareassmalltext {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-left:1vw;
+    padding-right:1vw;
+    letter-spacing:0px;
+  }
+
+  .threeareassmalltext2 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:40px;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom:45px;
+    letter-spacing:0px;
+    opacity:1;
+  }
+
+  .threeareassmalltext3 {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-top:40px;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom:20px;
+    letter-spacing:0px;
+  }
+
+  #innovation {
+    background-image:url(../../images/innovationstudiopic.jpg);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #academy {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+  }
+
+  #academy3 {
+    background-image:url(../../images/code2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #services {
+    background-image:url(../../images/wall.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #innovation {
+    background-image:url(../../images/startup.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #headerpic {
+    background-image:url(../../images/loadingpage2.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #hedy {
+    background-image:url(../../images/hedy4.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #wearehedy {
+    background-image:url(../../images/poster.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #gettoknow {
+    background-image:url(../../images/loadingpage1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #whatwedo {
+    background-image:url(../../images/loadingpage3.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #kotlin {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+
+  #kotlin2 {
+    background-image:url(../../images/kotlin.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+
+  .picturedivwhatwedo {
+    width:30%;
+    margin:10px;
+    border-radius:10px;
+    padding:10px;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
+
+  .onearea {
+    height:500px;
+    background-color:rgba(255,255,255,0.3);
+    padding:2vw;
+    text-align:center;
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+    transition: 0.2s ease-in-out,width 1s ease-in,height 1s linear,border-radius 1s ease-in-out;
+    -webkit-transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+    transition:all 0.6s cubic-bezier(0.165,0.84,0.44,1);
+  }
+
+  .onearea:hover {
+    box-shadow:0 0 20px rgba(33,33,33,.2);
+    -webkit-transform:scale(1.05,1.05);
+    transform:scale(1.05,1.05);
+  }
+
+  .opacity05 {
+    padding-bottom:40px;
+    height:450px;
+    background-color:rgba(255,255,255,0.8);
+  }
+
+  .hedytexttilt {
+    transform:rotate(-10deg);
+    text-align:left;
+    margin-left:50px;
+    font-family:River Jade;
+    margin-bottom:-20px;
+    letter-spacing:0;
+    color:#FE7E83;
+    font-size:70px;
+    margin-top:0;
+  }
+
+  .whatwedodiv {
+    margin:30px;
+    padding-top:50px;
+  }
+
+  .arcamajora2 {
+    font-family:Arca Majora3;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:5;
+  }
+}
+
+.wearehedytextbox {
+  width:100%;
+  margin:auto;
+  font-family:Futura Medium Italic;
+  text-align:center;
+}
+
+.wearehedytext {
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  text-align:center;
+  padding-left:250px;
+  padding-right:250px;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin:auto;
+  font-size:40px;
+  background-color:rgba(255,255,255,0.3);
+  color:white;
+}
+
+.teampicturebox {
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  background-color:rgba(255,255,255,0.9);
+  padding-top:15vw;
+  background-size:cover;
+  width:100%;
+  font-family:Arca Majora3;
+  text-align:center;
+}
+
+#teampicture {
+  background-image:url(../../images/TeamHedy.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-size:90%;
+  background-color:white;
+  cursor:pointer;
+}
+
+#texthedyteam {
+  padding-top:230px;
+  font-size:6vw;
+}
+
+@media (max-width:1000px) {
+  #texthedyteam { padding-top:180px; }
+}
+
+.introbox {
+  width:80%;
+  height:auto;
+  background-color:#051C26;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-flow:column;
+  padding:50px;
+}
+
+.introtext {
+  margin:0;
+  text-align:justify;
+  font-size:50px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
+}
+
+.introtextsmall {
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:justify;
+  font-size:40px;
+  font-family:Futura Thin;
+  color:#F8ECE4;
+}
+
+.introtextlast {
+  margin:0;
+  text-align:center;
+  font-size:50px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
+}
+
+.webintrobox {
+  width:80%;
+  height:auto;
+  margin:auto;
+  text-align:center;
+  display:flex;
+  flex-flow:column;
+  padding:50px;
+}
+
+.webintrotext {
+  margin:0;
+  font-size:70px;
+  font-family:Futura Medium Italic;
+}
+
+.webintrotextsmall {
+  padding-left:150px;
+  padding-right:150px;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:justify;
+  font-size:20px;
+  font-family:Futura Thin;
+}
+
+.webintrotextlast {
+  margin:0;
+  padding-left:150px;
+  text-align:left;
+  font-size:20px;
+  font-family:Futura Medium Italic;
+  color:#FE7E83;
+}
+
+.introdiv {
+  width:100%;
+  display:flex;
+  height:500px;
+  flex-flow:wrap;
+  justify-content:space-between;
+}
+
+.introsmalltext {
+  font-family:Futura Medium Italic;
+  text-align:left;
+  padding:30px;
+  font-size:20px;
+  margin-top:100px;
+  width:55%;
+  height:300px;
+  color:white;
+  background-color:black;
+  margin-right:20px;
+}
+
+.smallertext { font-size:30px; }
+
+@media (max-width:1000px) {
+  .introdiv {
+    width:100%;
+    display:flex;
+    height:500px;
+    margin-bottom:500px;
+    flex-flow:column;
+    justify-content:space-between;
+  }
+
+  .introsmalltext {
+    font-family:Futura Medium Italic;
+    text-align:left;
+    padding:30px;
+    font-size:18px;
+    margin-top:100px;
+    width:100%;
+    height:300px;
+    color:white;
+    background-color:black;
+    margin-right:20px;
+  }
+
+  .smallertext {
+    text-align:center;
+    font-size:30px;
+  }
+}
+
 @media (min-width:1000px) {}
+
+#hedylamarrpicture {
+  background-image:url(../../images/hedyfaceweb1.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  background-size:50%;
+  background-color:rgb(255,255,255,0.5);
+}
+
+#hedylamarrtext {
+  font-family:River Jade;
+  padding-top:700px;
+  font-size:90px;
+  text-align:center;
+  margin-top:0;
+}
+
+.hedypicturebox {
+  padding-top:400px;
+  margin-top:50px;
+  padding-left:20px;
+  padding-right:20px;
+  display:flex;
+  flex-flow:column;
+  justify-content:space-around;
+  height:600px;
+  width:100%;
+  text-align:center;
+}
+
+#hedylamarrquote {
+  font-family:River Jade;
+  padding-top:400px;
+  font-size:90px;
+  text-align:center;
+  margin-top:0;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.hedyquotesmalltext {
+  margin-top:-50px;
+  font-family:Futura Medium Italic;
+  text-align:center;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:40px;
+}
+
+.hedylamarrtext {
+  font-family:Futura Thin;
+  text-align:left;
+  padding-left:100px;
+  padding-right:100px;
+  font-size:20px;
+  margin-top:300px;
+}
+
+@media (max-width:1000px) {
+  #hedyhandsvartbeige {
+    background-image:url(../../images/vithand.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-size:70%;
+  }
+
+  .hedydiv {
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-between;
+  }
+
+  .hedybox1 {
+    padding-left:40px;
+    width:100%;
+    font-family:Futura Thin;
+    justify-content:center;
+  }
+
+  .arcamajora {
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+  }
+
+  .hedybox {
+    margin-right:0px;
+    width:100%;
+    margin-top:0px;
+    height:auto;
+    font-family:Futura Thin;
+    justify-content:center;
+    padding:80px;
+  }
+
+  .margintop {
+    text-align:center;
+    margin-top:0px;
+    padding-top:450px;
+    height:600px;
+  }
+
+  .hedypicturebox {
+    padding-top:700px;
+    margin-top:50px;
+    padding-left:20px;
+    padding-right:20px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    height:0px;
+    width:100%;
+    text-align:center;
+  }
+}
+
+@media (min-width:1000px) {
+  .hedypicturebox {
+    height:400px;
+    width:40%;
+  }
+
+  .hedypagewebbox {
+    width:100%;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    padding-left:100px;
+    padding-right:100px;
+    background-color:white;
+  }
+
+  .hedylamarrtext {
+    font-family:Futura Thin;
+    text-align:left;
+    padding-left:0px;
+    padding-right:0px;
+    font-size:20px;
+    margin-top:170px;
+    width:50%;
+  }
+
+  .abouttextthinleft { width:50%; }
+
+  #hedylamarrquote {
+    padding-top:10px;
+    font-size:30px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  .hedyquotesmalltext {
+    margin-top:-20px;
+    font-family:Futura Medium Italic;
+    text-align:center;
+    padding-left:0px;
+    padding-right:0px;
+    font-size:15px;
+  }
+
+  .mobile { display:none; }
+
+  #hedyhandsvartbeige {
+    background-image:url(../../images/vithand.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-size:70%;
+  }
+
+  .hedydiv {
+    width:100%;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+  }
+
+  .hedybox1 {
+    padding-left:40px;
+    width:45%;
+    font-family:Futura Thin;
+    justify-content:center;
+  }
+
+  .hedyboxheader {
+    font-family:Arca Majora3;
+    letter-spacing:5px;
+  }
+
+  .hedybox {
+    margin-right:2vw;
+    width:50%;
+    font-family:Futura Thin;
+    justify-content:center;
+    padding:0px;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+  }
+
+  .margintop {
+    text-align:center;
+    padding-left:1vw;
+    padding-right:1vw;
+    position:relative;
+    top:20em;
+  }
+}
