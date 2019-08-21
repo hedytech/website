@@ -5,12 +5,9 @@ import { TweenLite, Linear } from 'gsap';
 class Fotnot extends React.Component {
   constructor (props) {
     super(props);
-    this.state = {
-    };
     this.updateLine();
   }
 
-  // updateLine();
   updateLine = () => {
     const data = this.generatePoints();
     const color = '#F1888A';
@@ -51,9 +48,7 @@ class Fotnot extends React.Component {
   render () {
     return (
       <div>
-
         <div className='menuboarddivfotnot'>
-
           <div className='mobile'>
             <svg className='svgclass' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 300'>
               <defs>
@@ -79,14 +74,12 @@ class Fotnot extends React.Component {
           </div>
 
           <div className='fotnotlogos'>
-
             <a href='https://www.instagram.com/hedy.tech'>
               <div className='logobox' id='instagramlogo' />
             </a>
             <a href='https://www.linkedin.com/company/hedy-tech'>
               <div className='logobox' id='linkedinlogo' />
             </a>
-
           </div>
 
           <div className='fotnotcontact' id='paddingtopbottom'>
@@ -105,7 +98,6 @@ class Fotnot extends React.Component {
               <h6 id='nomargintoplittlebottom'>Malmskillnadsgatan 32 5, 111 51 Stockholm</h6>
             </div>
           </div>
-
         </div>
       </div>
     );

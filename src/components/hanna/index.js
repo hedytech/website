@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 
 class Hanna extends React.Component {
   render () {

@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 
 class ScrollToTopOnMount extends React.Component {
   componentDidMount () {

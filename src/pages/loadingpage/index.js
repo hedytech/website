@@ -9,7 +9,6 @@ import '../../components/whatwedo/style.css';
 import '../../components/teamintro/style.css';
 import '../../components/wearehedytext/style.css';
 import '../../components/hedylamarrintro/style.css';
-import '../../components/scrolltotoponmount/style.css';
 
 class LoadingPage extends React.Component {
   constructor (props) {

@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 
 class Oden extends React.Component {
   render () {
