@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-export default () => (
+export default ({ title = 'CONTACT US FOR MORE INFO', href = 'mailto:hello@hedy.tech' }) => (
   <div>
-    <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
+    <a href={href} style={{ textDecoration: 'none', color: 'white' }}>
       <div className='contactbuttonbox'>
-        <button className='contactbutton'>CONTACT US FOR MORE INFO</button>
+        <button className='contactbutton'>{title.toUpperCase()}</button>
       </div>
     </a>
   </div>

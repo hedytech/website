@@ -1,12 +1,6 @@
 import React from 'react';
-import './style.css';
+import Contactbutton from '../contactbutton';
 
 export default () => (
-  <div>
-    <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
-      <div className='contactbuttonbox'>
-        <button className='contactbutton'>GET IN TOUCH</button>
-      </div>
-    </a>
-  </div>
+  <Contactbutton title='GET IN TOUCH' />
 );
