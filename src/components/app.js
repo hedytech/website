@@ -13,11 +13,6 @@ import Privacypolicy from './privacypolicy';
 import Hamburgermenu from './hamburgermenu';
 import Loadingpagetwo from './loadingpagetwo';
 
-/* eslint-disable */
-// required for css imports
-import Loadingpage from './loadingpage';
-/* eslint-enable */
-
 class App extends React.Component {
   render () {
     return (

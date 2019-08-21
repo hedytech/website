@@ -4,6 +4,13 @@ import './style.css';
 import Header from '../header';
 import ScrollToTopOnMount from '../scrolltotoponmount';
 
+import '../introbox/style.css';
+import '../whatwedo/style.css';
+import '../teamintro/style.css';
+import '../wearehedytext/style.css';
+import '../hedylamarrintro/style.css';
+import '../scrolltotoponmount/style.css';
+
 class Loadingpagetwo extends React.Component {
   constructor (props) {
     super(props);
