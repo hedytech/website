@@ -8,7 +8,6 @@ class Header extends React.Component {
     this.updateLine();
   }
 
-  // updateLine();
   updateLine = () => {
     const data = this.generatePoints();
     const color = '#F1888A';
