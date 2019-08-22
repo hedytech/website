@@ -81,7 +81,7 @@ class Fotnot extends React.Component {
                   <h5 className='nomargintoplittlebottom'>HEDYLITY TECHNOLOGY</h5>
                 </div>
               </div>
-              <h6 className='nomargintoplittlebottom'>Malmskillnadsgatan 32 5, 111 51 Stockholm</h6>
+              <h6 className='nomargintoplittlebottom'>Malmskillnadsgatan 32, 111 51 Stockholm</h6>
             </div>
           </div>
         </div>
