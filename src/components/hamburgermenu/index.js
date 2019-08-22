@@ -8,6 +8,8 @@ class Hamburgermenu extends React.Component {
   };
 
   render () {
+    const { menuOpen } = this.state;
+
     return (
       <div>
         <div className='mobile'>
@@ -23,11 +25,11 @@ class Hamburgermenu extends React.Component {
               <div className='boxbehindhamburger menuToggle'>
                 <nav role='navigation'>
                   <div className='menuToggle'>
-                    <input id='closeIconMobile' aria-label='Close' type='checkbox' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} />
+                    <input id='closeIconMobile' aria-label='Close' type='checkbox' checked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
                     <span />
                     <span />
                     <span />
-                    <ul className='menu' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })}>
+                    <ul className='menu' style={{ display: menuOpen ? '' : 'none' }} onClick={() => this.setState({ menuOpen: !menuOpen })}>
                       <li>
                         <Link
                           style={{ textDecoration: 'none', color: '#ffffff' }}
@@ -105,9 +107,9 @@ class Hamburgermenu extends React.Component {
 
                 <div className='webmenuToggle'>
 
-                  <input id='closeIcon' type='checkbox' aria-label='Close' />
+                  <input id='closeIcon' type='checkbox' aria-label='Close' checked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
 
-                  <ul className='webmenu'>
+                  <ul className='webmenu' onClick={() => this.setState({ menuOpen: !menuOpen })}>
                     <li>
                       <Link
                         style={{ textDecoration: 'none', color: '#ffffff' }}
