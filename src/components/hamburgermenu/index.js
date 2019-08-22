@@ -81,7 +81,6 @@ class Hamburgermenu extends React.Component {
                     </ul>
                   </div>
                 </nav>
-                {/* {!this.state.isHidden && <Menudropdown />} */}
               </div>
             </div>
           </div>
@@ -162,7 +161,6 @@ class Hamburgermenu extends React.Component {
                   </ul>
                 </div>
               </nav>
-              {/* {!this.state.isHidden && <Menudropdown />} */}
             </div>
           </div>
 
