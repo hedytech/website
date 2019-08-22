@@ -25,7 +25,7 @@
   z-index:1;
 }
 
-#menu {
+.menu {
   position:relative;
   width:100%;
   text-align:left;
@@ -43,12 +43,12 @@
   transition:transform 0.5s;
 }
 
-#menu li {
+.menu li {
   padding:10px 0;
   font-size:22px;
 }
 
-#menuToggle {
+.menuToggle {
   padding-top: 15px;
   display:block;
   position:absolute;
@@ -59,7 +59,7 @@
   user-select:none;
 }
 
-#menuToggle input {
+.menuToggle input {
   display:block;
   width:80%;
   left:80%;
@@ -72,7 +72,7 @@
   -webkit-touch-callout:none;
 }
 
-#menuToggle span {
+.menuToggle span {
   left:85%;
   display:block;
   width:10vw;
@@ -86,27 +86,27 @@
   transition:transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),opacity 0.55s ease;
 }
 
-#menuToggle span:first-child { transform-origin:0% 0%; }
+.menuToggle span:first-child { transform-origin:0% 0%; }
 
-#menuToggle span:nth-last-child(2) { transform-origin:0% 100%; }
+.menuToggle span:nth-last-child(2) { transform-origin:0% 100%; }
 
-#menuToggle input:checked~span {
+.menuToggle input:checked~span {
   opacity:1;
   transform:rotate(-50deg) translate(-20px,15px);
   background:#ffffff;
 }
 
-#menuToggle input:checked~span:nth-last-child(3) {
+.menuToggle input:checked~span:nth-last-child(3) {
   opacity:0;
   transform:rotate(0deg) scale(0.8,0.2);
 }
 
-#menuToggle input:checked~span:nth-last-child(2) {
+.menuToggle input:checked~span:nth-last-child(2) {
   opacity:1;
   transform:rotate(50deg) translate(-20px,-15px);
 }
 
-#menuToggle input:checked~ul {
+.menuToggle input:checked~ul {
   transform:scale(1.0,1.0);
   opacity:1;
 }
@@ -137,7 +137,7 @@
   z-index:1000;
 }
 
-#webmenu {
+.webmenu {
   font-size:15px;
   position:relative;
   width:800px;
@@ -155,7 +155,7 @@
   transition:transform 1s;
 }
 
-#webmenuToggle {
+.webmenuToggle {
   margin-top:15px;
   display:block;
   position:absolute;
@@ -165,7 +165,7 @@
   user-select:none;
 }
 
-#webmenuToggle input {
+.webmenuToggle input {
   display:block;
   width:10vw;
   height:5vw;
@@ -179,7 +179,7 @@
   -webkit-touch-callout:none;
 }
 
-#webmenuToggle input:checked~ul {
+.webmenuToggle input:checked~ul {
   transform:scale(1.0,1.0);
   opacity:1;
 }

@@ -4,7 +4,7 @@ import './style.css';
 class HedyPage extends React.Component {
   render () {
     return (
-      <div id='hedy'>
+      <div className='hedy'>
         <div className='fadeinclass'>
           <div className='fadeinclass'>
             <div className='mobile'>
@@ -14,10 +14,10 @@ class HedyPage extends React.Component {
                 <div className='academyteambox' id='backgroundcoloropacitywhite'>
 
                   <div className='areasheader'>
-                    <div className='headertextbox' id='arcamajora'>
+                    <div className='headertextbox arcamajora'>
                       <h1 id='colorblack'>HEDY LAMARR</h1>
                     </div>
-                    <h4 id='nomarginbottom'>“The brains of people are more
+                    <h4 className='nomarginbottom'>“The brains of people are more
             interesting than the looks”
                     </h4>
                     <h5>Hedy Lamarr (1914 – 2000)</h5>
@@ -56,13 +56,13 @@ class HedyPage extends React.Component {
           </div>
 
           <div className='web'>
-            <div id='opacitydark'>
+            <div className='opacitydark'>
               <div className='areasheader'>
                 <div className='pagemarginweb'>
 
-                  <div className='headertextbox' id='colorwhite'>
-                    <h1 id='arcamajora'>HEDY LAMARR</h1>
-                    <h4 id='nomarginbottom'>“The brains of people are more
+                  <div className='headertextbox colorwhite'>
+                    <h1 className='arcamajora'>HEDY LAMARR</h1>
+                    <h4 className='nomarginbottom'>“The brains of people are more
                   interesting than the looks”
                     </h4>
                     <h5 id='nomargintop'>Hedy Lamarr (1914 – 2000)</h5>
@@ -71,7 +71,7 @@ class HedyPage extends React.Component {
                   <div className='justifycenter'>
 
                     <div className='academyteambox' id='backgroundcoloropacitywhite5'>
-                      <div className='academytextthin' id='colorwhite'>
+                      <div className='academytextthin colorwhite'>
                         <div id='paddingleftright'>
                           <h5>
                             <p>Hedylity Technology is named after Hedy Lamarr,

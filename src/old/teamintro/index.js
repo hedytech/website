@@ -8,7 +8,7 @@ export default () => (
     to='/team'
   >
     <div className='fadeinclass'>
-      <div className='teampicturebox' id='teampicture'>
+      <div className='teampicturebox teampicture'>
         <h3 className='title'>
       GET TO KNOW US
         </h3>

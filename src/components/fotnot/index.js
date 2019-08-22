@@ -49,29 +49,15 @@ class Fotnot extends React.Component {
     return (
       <div>
         <div className='menuboarddivfotnot'>
-          <div className='mobile'>
-            <svg className='svgclass' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 300'>
-              <defs>
-                <filter id='glow-filter'>
-                  <feGaussianBlur in='SourceGraphic' stdDeviation='4' />
-                </filter>
-              </defs>
-              <polyline className='line2' />
-              <polyline className='line-glow' />
-            </svg>
-          </div>
-
-          <div className='web'>
-            <svg className='svgclass' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 300'>
-              <defs>
-                <filter id='glow-filter'>
-                  <feGaussianBlur in='SourceGraphic' stdDeviation='4' />
-                </filter>
-              </defs>
-              <polyline className='line' />
-              <polyline className='line-glow' />
-            </svg>
-          </div>
+          <svg className='svgclass' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 300'>
+            <defs>
+              <filter id='glow-filter'>
+                <feGaussianBlur in='SourceGraphic' stdDeviation='4' />
+              </filter>
+            </defs>
+            <polyline className='line2' />
+            <polyline className='line-glow' />
+          </svg>
 
           <div className='fotnotlogos'>
             <a href='https://www.instagram.com/hedy.tech' title='Instagram'>
@@ -84,18 +70,18 @@ class Fotnot extends React.Component {
 
           <div className='fotnotcontact' id='paddingtopbottom'>
             <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
-              <div className='button btn-3'><span><h4 id='nomargin'>hello@hedy.tech</h4></span></div>
+              <div className='button btn-3'><span><h4 className='nomargin'>hello@hedy.tech</h4></span></div>
             </a>
           </div>
 
           <div id='paddingbottom'>
-            <div className='fotnotcontact2' id='arcamajoranospace'>
+            <div className='fotnotcontact2 arcamajoranospace'>
               <div id='colorpink'>
-                <div id='arcamajora'>
-                  <h5 id='nomargintoplittlebottom'>HEDYLITY TECHNOLOGY</h5>
+                <div className='arcamajora'>
+                  <h5 className='nomargintoplittlebottom'>HEDYLITY TECHNOLOGY</h5>
                 </div>
               </div>
-              <h6 id='nomargintoplittlebottom'>Malmskillnadsgatan 32 5, 111 51 Stockholm</h6>
+              <h6 className='nomargintoplittlebottom'>Malmskillnadsgatan 32 5, 111 51 Stockholm</h6>
             </div>
           </div>
         </div>

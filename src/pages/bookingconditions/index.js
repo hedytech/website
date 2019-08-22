@@ -1,9 +1,13 @@
 import React from 'react';
+import './style.css';
+import ScrollToTopOnMount from '../../components/scrolltotop';
 
 class BookingConditionsPage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
+        <ScrollToTopOnMount />
+
         <div className='abouttextthinleftweb' id='backgroundcolorwhiteblack'>
           <h1>BOOKING CONDITIONS</h1>
           <div className='whatwedosmalltextcenter'>

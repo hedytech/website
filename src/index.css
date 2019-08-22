@@ -129,13 +129,13 @@ body {
 
 #negativemargin { margin-top:-15vw; }
 
-#nomarginbottom { margin-bottom:0; }
+.nomarginbottom { margin-bottom:0; }
 
 #marginbottom { margin-bottom:10vw; }
 
 #marginbottom2 { margin-bottom:5vw; }
 
-#nomargintoplittlebottom {
+.nomargintoplittlebottom {
   margin-top:0;
   margin-bottom:1vw;
 }
@@ -147,24 +147,24 @@ body {
 
 #marginauto { margin:auto; }
 
-#margintoptrecommafem {
+.margintoptrecommafem {
   margin-top:3.5vw;
   margin-bottom:0;
 }
 
-#margintopnollcommafem {
+.margintopnollcommafem {
   margin-top:0.5vw;
   margin-bottom:0;
 }
 
 #minusmargin { margin-top:-1vw; }
 
-#arcamajora {
+.arcamajora {
   font-family:Arca Majora3;
   letter-spacing:5px;
 }
 
-#arcamajoranospace { font-family:Arca Majora3; }
+.arcamajoranospace { font-family:Arca Majora3; }
 
 #futuramediumitalic {
   font-family:Futura Medium Italic;
@@ -172,7 +172,7 @@ body {
   letter-spacing:0px;
 }
 
-#futurathin {
+.futurathin {
   font-family:Futura Thin;
   letter-spacing:0px;
 }
@@ -278,7 +278,7 @@ body {
   margin-top:-2vw;
 }
 
-#colorwhite { color:white; }
+.colorwhite { color:white; }
 
 #colorpink { color:#F1888A; }
 
@@ -288,7 +288,7 @@ body {
 
 #opacity { background-color:rgb(255,255,255,0.5); }
 
-#opacitydark { background-color:rgb(3,49,64,0.5); }
+.opacitydark { background-color:rgb(3,49,64,0.5); }
 
 #paddingleftright {
   padding-left:2vw;
@@ -424,7 +424,7 @@ mark.italic {
     font-size:10vw;
   }
 
-  #blackhylogo {
+  .blackhylogo {
     background-image:url(./images/vithy.png);
     background-repeat:no-repeat;
     background-position:center;
@@ -517,7 +517,7 @@ mark.italic {
     letter-spacing:5px;
   }
 
-  #blackhylogo {
+  .blackhylogo {
     background-image:url(./images/vithy.png);
     background-repeat:no-repeat;
     background-position:center;

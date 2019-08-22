@@ -8,13 +8,13 @@ class ServicesPage extends React.Component {
       <div className='fadeinclass'>
         <div className='mobile'>
           <div id='services'>
-            <div id='opacitydark'>
+            <div className='opacitydark'>
 
               <div className='areasheader'>
                 <div className='headertextbox'>
                   <p className='hedytexttiltacademy'>Hedy</p>
 
-                  <h1 id='arcamajora'>SERVICES</h1>
+                  <h1 className='arcamajora'>SERVICES</h1>
                   <div className='headertextsmall2'>
                     <h4>Consultancy services within programming and management</h4>
                   </div>
@@ -39,8 +39,8 @@ class ServicesPage extends React.Component {
 
                 <div className='academyteambox' id='backgroundcolordarkbluepink'>
 
-                  <div className='academytextthin2' id='colorwhite'>
-                    <h4 className='textboxheader' id='nomargintoplittlebottom'>ROLES WE HAVE TAKEN</h4>
+                  <div className='academytextthin2 colorwhite'>
+                    <h4 className='textboxheader nomargintoplittlebottom'>ROLES WE HAVE TAKEN</h4>
                     <h4>
                   Quality Assurance, Tech architect,
                   Agile coach, Tech educator, Brand developer,
@@ -55,7 +55,7 @@ class ServicesPage extends React.Component {
                     </h4>
                   </div>
 
-                  <div className='academytextthin2' id='colorwhite'>
+                  <div className='academytextthin2 colorwhite'>
                     <h4 className='textboxheader'>TYPE OF SERVICES</h4>
                     <div id='marginbottom'>
                       <h4>
@@ -80,15 +80,15 @@ class ServicesPage extends React.Component {
           <div>
 
             <div id='services'>
-              <div id='opacitydark'>
+              <div className='opacitydark'>
 
                 <div className='areasheader'>
                   <div className='pagemarginweb'>
 
-                    <div className='headertextbox' id='colorwhite'>
+                    <div className='headertextbox colorwhite'>
                       <p className='hedytexttiltacademy'>Hedy</p>
 
-                      <h1 id='arcamajora'>SERVICES</h1>
+                      <h1 className='arcamajora'>SERVICES</h1>
                       <div className='headertextsmall2'>
                         <p>Consultancy services within programming and management</p>
                       </div>
@@ -97,7 +97,7 @@ class ServicesPage extends React.Component {
                     <div className='justifycenter'>
 
                       <div className='academyteambox' id='backgroundcolordarkbluepink'>
-                        <div className='academytextthin' id='colorwhite'>
+                        <div className='academytextthin colorwhite'>
                           <div id='paddingleftright'>
                             <h5>
               We accelerate businesses with skills and solutions
@@ -114,8 +114,8 @@ class ServicesPage extends React.Component {
                       <div className='academyteambox' id='backgroundcolordarkbluewhite'>
 
                         <div className='academytextthin2' id='paddingbottom'>
-                          <h6 className='textboxheader' id='nomargintoplittlebottom'>ROLES WE HAVE TAKEN</h6>
-                          <h6 id='nomargin'> Quality Assurance, Tech architect,
+                          <h6 className='textboxheader nomargintoplittlebottom'>ROLES WE HAVE TAKEN</h6>
+                          <h6 className='nomargin'> Quality Assurance, Tech architect,
             Agile coach, Tech educator, Brand developer,
             Growth hacker,Backend developer,
             Kotlin developer, Board member,
@@ -129,7 +129,7 @@ class ServicesPage extends React.Component {
                         </div>
 
                         <div className='academytextthin2' id='paddingbottom'>
-                          <h6 className='textboxheader' id='nomargintoplittlebottom'>TYPE OF SERVICES</h6>
+                          <h6 className='textboxheader nomargintoplittlebottom'>TYPE OF SERVICES</h6>
                           <div>
                             <h6 className='bulletpoints' id='nomargintop'>
                               <ul>

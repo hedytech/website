@@ -6,7 +6,7 @@ class Newloadingpage extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
-        <div id='headerpic'>
+        <div className='headerpic'>
 
           <Header />
           <div />

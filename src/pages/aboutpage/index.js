@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
             <div className='pagemarginweb'>
 
               <div className='headertextbox' id='flexboxcenter'>
-                <h1 id='arcamajora'>ABOUT HEDY</h1>
+                <h1 className='arcamajora'>ABOUT HEDY</h1>
                 <div className='headertextsmall2'>
                   <p>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are HEDY.</p>
                 </div>
@@ -21,7 +21,7 @@ class AboutPage extends React.Component {
                 <div className='aboutteambox'>
                   <div className='aboutpicturebox' id='hannaemelie' />
 
-                  <div className='abouttextthin2' id='colorwhite'>
+                  <div className='abouttextthin2 colorwhite'>
                     <p>We founded Hedy because our strong belief is that technology will be the enabler
             to create the world we want to live in. Hedy gathers high-skilled talents within
             an environment where each one gets to discover and utilize its full potential.
@@ -30,7 +30,7 @@ class AboutPage extends React.Component {
                     </p><p> Let’s create the future together!</p>
                   </div>
 
-                  <div className='aboutsignature' id='colorwhite'>
+                  <div className='aboutsignature colorwhite'>
                     <h1>Hanna &amp; Emelie</h1>
                   </div>
 
@@ -55,9 +55,9 @@ class AboutPage extends React.Component {
               <div className='areasheader'>
 
                 <div className='headertextbox'>
-                  <h1 id='arcamajora'>ABOUT HEDY</h1>
+                  <h1 className='arcamajora'>ABOUT HEDY</h1>
                   <div className='headertextsmall2'>
-                    <h6 id='arcamajoranospace'>We are Honest. We are Effectual.
+                    <h6 className='arcamajoranospace'>We are Honest. We are Effectual.
                 We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark>
                     </h6>
                   </div>
@@ -69,7 +69,7 @@ class AboutPage extends React.Component {
                 <div className='aboutteambox'>
                   <div className='aboutpicturebox' id='hannaemelieweb' />
 
-                  <div className='abouttextthin2' id='colorwhite'>
+                  <div className='abouttextthin2 colorwhite'>
                     <p>We founded Hedy because our strong belief is that technology will be the enabler
             to create the world we want to live in. Hedy gathers high-skilled talents within
             an environment where each one gets to discover and utilize its full potential.
@@ -77,7 +77,7 @@ class AboutPage extends React.Component {
             of the tech world and is the actor that puts the agenda into action.
                     </p><p> Let’s create the future together!</p>
                   </div>
-                  <div className='aboutsignature' id='colorwhite'>
+                  <div className='aboutsignature colorwhite'>
                     <h1>Hanna &amp; Emelie</h1>
                   </div>
 

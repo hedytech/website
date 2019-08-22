@@ -17,17 +17,17 @@ class Hamburgermenu extends React.Component {
                 style={{ textDecoration: 'none', color: '#ffffff' }}
                 to='/'
               >
-                <div className='logohamburgermenu' id='blackhylogo' />
+                <div className='logohamburgermenu blackhylogo' />
               </Link>
 
-              <div className='boxbehindhamburger' id='menuToggle'>
+              <div className='boxbehindhamburger menuToggle'>
                 <nav role='navigation'>
-                  <div id='menuToggle'>
+                  <div className='menuToggle'>
                     <input id='closeIconMobile' aria-label='Close' type='checkbox' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} />
                     <span />
                     <span />
                     <span />
-                    <ul id='menu' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })}>
+                    <ul className='menu' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })}>
                       <li>
                         <Link
                           style={{ textDecoration: 'none', color: '#ffffff' }}
@@ -92,22 +92,22 @@ class Hamburgermenu extends React.Component {
                 to='/'
                 title='Hedy'
               >
-                <div id='blackhylogo' />
+                <div className='blackhylogo' />
               </Link>
 
             </div>
             <div className='menutext'>
-              <h5 id='arcamajora'>MENU</h5>
+              <h5 className='arcamajora'>MENU</h5>
             </div>
-            <div className='webboxbehindhamburger' id='webmenuToggle'>
+            <div className='webboxbehindhamburger webmenuToggle'>
 
               <nav role='navigation'>
 
-                <div id='webmenuToggle'>
+                <div className='webmenuToggle'>
 
                   <input id='closeIcon' type='checkbox' aria-label='Close' />
 
-                  <ul id='webmenu'>
+                  <ul className='webmenu'>
                     <li>
                       <Link
                         style={{ textDecoration: 'none', color: '#ffffff' }}

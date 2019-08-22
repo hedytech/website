@@ -9,7 +9,7 @@
 }
 
 @media (max-width:1000px) {
-  #hedy {
+  .hedy {
     background-image:url(../../images/hedy4.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -60,7 +60,7 @@
     z-index:-1;
   }
 
-  #headerpic {
+  .headerpic {
     background-image:url(../../images/loadingpage2.jpg);
     background-repeat:no-repeat;
     background-position:top;
@@ -68,7 +68,7 @@
     z-index:-1;
   }
 
-  #wearehedy {
+  .wearehedy {
     background-image:url(../../images/poster.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -76,7 +76,7 @@
     z-index:-1;
   }
 
-  #gettoknow {
+  .gettoknow {
     background-image:url(../../images/loadingpage1.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -84,7 +84,7 @@
     z-index:-1;
   }
 
-  #whatwedo {
+  .whatwedo {
     background-image:url(../../images/loadingpage3.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -304,7 +304,7 @@
     z-index:-1;
   }
 
-  #headerpic {
+  .headerpic {
     background-image:url(../../images/loadingpage2.jpg);
     background-repeat:no-repeat;
     background-position:top;
@@ -313,7 +313,7 @@
     z-index:-1;
   }
 
-  #hedy {
+  .hedy {
     background-image:url(../../images/hedy4.jpg);
     background-repeat:no-repeat;
     background-position:top;
@@ -322,7 +322,7 @@
     z-index:-1;
   }
 
-  #wearehedy {
+  .wearehedy {
     background-image:url(../../images/poster.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -331,7 +331,7 @@
     z-index:-1;
   }
 
-  #gettoknow {
+  .gettoknow {
     background-image:url(../../images/loadingpage1.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -340,7 +340,7 @@
     z-index:-1;
   }
 
-  #whatwedo {
+  .whatwedo {
     background-image:url(../../images/loadingpage3.jpg);
     background-repeat:no-repeat;
     background-position:center;

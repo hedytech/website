@@ -17,7 +17,7 @@ class AcademyPage extends React.Component {
               <div className='headertextbox'>
                 <p className='hedytexttiltacademy'>Hedy</p>
 
-                <h1 id='arcamajora'>ACADEMY</h1>
+                <h1 className='arcamajora'>ACADEMY</h1>
                 <div className='headertextsmall2'>
                   <h4>We close the gap between tech and business</h4>
                 </div>
@@ -39,13 +39,13 @@ class AcademyPage extends React.Component {
 
             <div className='teamboxweb'>
 
-              <h1 id='colorwhite'>CURRENT COURSES</h1>
+              <h1 className='colorwhite'>CURRENT COURSES</h1>
 
               <div className='picturedivcourse' id='growdiv'>
                 <div id='kotlin2'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Succeed with Kotlin</h2>
+                      <h2 className='arcamajoranospace'>Succeed with Kotlin</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -64,7 +64,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Android development for beginners</h2>
+                      <h2 className='arcamajoranospace'>Android development for beginners</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -78,7 +78,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Advanced Android development</h2>
+                      <h2 className='arcamajoranospace'>Advanced Android development</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -92,7 +92,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Android Architecture</h2>
+                      <h2 className='arcamajoranospace'>Android Architecture</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -106,7 +106,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Growth hacking</h2>
+                      <h2 className='arcamajoranospace'>Growth hacking</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -120,7 +120,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Take digitalization and tech trends into the board room</h2>
+                      <h2 className='arcamajoranospace'>Take digitalization and tech trends into the board room</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -134,7 +134,7 @@ class AcademyPage extends React.Component {
                 <div id='academy'>
                   <div className='coursesdiv'>
                     <div className='margin'>
-                      <h2 id='arcamajoranospace'>Learn to code</h2>
+                      <h2 className='arcamajoranospace'>Learn to code</h2>
                     </div>
                     <div className='bottomdiv' id='hedyacademytext' />
                   </div>
@@ -147,7 +147,7 @@ class AcademyPage extends React.Component {
 
             <div className='academyteambox' id='backgroundcolordarkbluewhite'>
 
-              <div className='academytextthin2' id='colorwhite'>
+              <div className='academytextthin2 colorwhite'>
                 <h4 className='textboxheader'>TYPE OF COURSES</h4>
                 <div className='bulletpoints'>
                   <ul id='nopaddingleft'>
@@ -162,7 +162,7 @@ class AcademyPage extends React.Component {
               <div className='academytextthin2' id='paddingbottom'>
                 <h4 className='textboxheader'>TARGET GROUP</h4>
                 <div>
-                  <h4 id='nomargin'> Driven fast learners, developers, board members, management team members,
+                  <h4 className='nomargin'> Driven fast learners, developers, board members, management team members,
            people with a passion for tech who want to change industry, entrepreneurs, among others...
                   </h4>
                 </div>
@@ -178,7 +178,7 @@ class AcademyPage extends React.Component {
           <div>
 
             <div id='academy3'>
-              <div id='opacitydark'>
+              <div className='opacitydark'>
 
                 <div className='areasheader'>
                   <div className='pagemarginweb'>
@@ -186,7 +186,7 @@ class AcademyPage extends React.Component {
                     <div className='headertextbox'>
                       <p className='hedytexttiltacademy'>Hedy</p>
 
-                      <h1 id='arcamajora'>ACADEMY</h1>
+                      <h1 className='arcamajora'>ACADEMY</h1>
                       <div className='headertextsmall2'>
                         <p>We close the gap between tech and business</p>
                       </div>
@@ -196,7 +196,7 @@ class AcademyPage extends React.Component {
                   <div className='justifycenter'>
 
                     <div className='academyteambox' id='backgroundcolordarkbluepink'>
-                      <div className='academytextthin' id='colorwhite'>
+                      <div className='academytextthin colorwhite'>
                         <h5 id='paddingleftright'>With focus on modern leadership and technology,
           Hedy builds and increases the competencies of people and
           organizations to answer up to the requirements of the future.
@@ -205,7 +205,7 @@ class AcademyPage extends React.Component {
                         </h5>
                       </div>
                       <div id='colorpink'>
-                        <h1 id='nomargin'>CURRENT COURSES</h1>
+                        <h1 className='nomargin'>CURRENT COURSES</h1>
                       </div>
                     </div>
 
@@ -319,7 +319,7 @@ class AcademyPage extends React.Component {
                     <div className='academyteambox' id='backgroundcolordarkbluewhite'>
 
                       <div className='academytextthin2' id='paddingbottom'>
-                        <h6 className='textboxheader' id='nomargin'>TYPE OF COURSES</h6>
+                        <h6 className='textboxheader nomargin'>TYPE OF COURSES</h6>
                         <h6 className='bulletpoints' id='nomargintop'>
                           <ul>
                             <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
@@ -331,9 +331,9 @@ class AcademyPage extends React.Component {
                       </div>
 
                       <div className='academytextthin2' id='paddingbottom'>
-                        <h6 className='textboxheader' id='nomargintoplittlebottom'>TARGET GROUP</h6>
+                        <h6 className='textboxheader nomargintoplittlebottom'>TARGET GROUP</h6>
                         <div>
-                          <h6 id='nomargin'> Driven fast learners, developers, board members, management team members,
+                          <h6 className='nomargin'> Driven fast learners, developers, board members, management team members,
                      people with a passion for tech who want to change industry, entrepreneurs, among others...
                           </h6>
                         </div>

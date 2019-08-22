@@ -29,10 +29,10 @@ export default () => (
       <div className='hedybox'>
         <div id='hedylamarrpicture'>
           <div className='margintop'>
-            <h4 id='nomargin'>“The brains of people are more
+            <h4 className='nomargin'>“The brains of people are more
         interesting than the looks”
             </h4>
-            <h6 id='nomargin'>Hedy Lamarr (1914 – 2000)</h6>
+            <h6 className='nomargin'>Hedy Lamarr (1914 – 2000)</h6>
           </div>
         </div>
 

@@ -51,7 +51,7 @@ class TeamPage extends React.Component {
 
               <div className='areasheader'>
                 <div className='headertextbox'>
-                  <h1 id='arcamajora'>TEAM PHILOSOPHY</h1>
+                  <h1 className='arcamajora'>TEAM PHILOSOPHY</h1>
                   <div className='headertextsmall'>
                     <h5>At Hedy we put continuous learning in the
           forefront and share our knowledge to build
@@ -69,35 +69,35 @@ class TeamPage extends React.Component {
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='bob' onClick={this.handleFirst}>
-                    {this.state.isHiddenFirst && <h5 className='headernametext' id='arcamajora'>BOB DAHLBERG</h5>}
+                    {this.state.isHiddenFirst && <h5 className='headernametext rcamajora'>BOB DAHLBERG</h5>}
                     {!this.state.isHiddenFirst && <Bob />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='emelie' onClick={this.handleSecond}>
-                    {this.state.isHiddenSecond && <h5 className='headernametext' id='arcamajora'>EMELIE MEURK DEMERUD</h5>}
+                    {this.state.isHiddenSecond && <h5 className='headernametext arcamajora'>EMELIE MEURK DEMERUD</h5>}
                     {!this.state.isHiddenSecond && <Emelie />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='hanna' onClick={this.handleThird}>
-                    {this.state.isHiddenThird && <h5 className='headernametext' id='arcamajora'>HANNA MOISANDER</h5>}
+                    {this.state.isHiddenThird && <h5 className='headernametext arcamajora'>HANNA MOISANDER</h5>}
                     {!this.state.isHiddenThird && <Hanna />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='oden' onClick={this.handleFifth}>
-                    {this.state.isHiddenFifth && <h5 className='headernametext' id='arcamajora'>ODEN LOBELL</h5>}
+                    {this.state.isHiddenFifth && <h5 className='headernametext arcamajora'>ODEN LOBELL</h5>}
                     {!this.state.isHiddenFifth && <Oden />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='sara' onClick={this.handleSixth}>
-                    {this.state.isHiddenSixth && <h5 className='headernametext' id='arcamajora'>SARAH OUAKIM</h5>}
+                    {this.state.isHiddenSixth && <h5 className='headernametext arcamajora'>SARAH OUAKIM</h5>}
                     {!this.state.isHiddenSixth && <Sarah />}
                   </div>
                 </div>
@@ -112,7 +112,7 @@ class TeamPage extends React.Component {
 
               <div className='areasheader'>
                 <div className='headertextbox'>
-                  <h1 id='arcamajora'>TEAM PHILOSOPHY</h1>
+                  <h1 className='arcamajora'>TEAM PHILOSOPHY</h1>
                   <div className='headertextsmall'>
                     <h5>At Hedy we put continuous learning in the
               forefront and share our knowledge to build
@@ -130,35 +130,35 @@ class TeamPage extends React.Component {
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='bob' onClick={this.handleFirst}>
-                    {this.state.isHiddenFirst && <h5 className='headernametext' id='arcamajora'>BOB DAHLBERG</h5>}
+                    {this.state.isHiddenFirst && <h5 className='headernametext arcamajora'>BOB DAHLBERG</h5>}
                     {!this.state.isHiddenFirst && <Bob />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='emelie' onClick={this.handleSecond}>
-                    {this.state.isHiddenSecond && <h5 className='headernametext' id='arcamajora'>EMELIE MEURK DEMERUD</h5>}
+                    {this.state.isHiddenSecond && <h5 className='headernametext arcamajora'>EMELIE MEURK DEMERUD</h5>}
                     {!this.state.isHiddenSecond && <Emelie />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='hanna' onClick={this.handleThird}>
-                    {this.state.isHiddenThird && <h5 className='headernametext' id='arcamajora'>HANNA MOISANDER</h5>}
+                    {this.state.isHiddenThird && <h5 className='headernametext arcamajora'>HANNA MOISANDER</h5>}
                     {!this.state.isHiddenThird && <Hanna />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='oden' onClick={this.handleFifth}>
-                    {this.state.isHiddenFifth && <h5 className='headernametext' id='arcamajora'>ODEN LOBELL</h5>}
+                    {this.state.isHiddenFifth && <h5 className='headernametext arcamajora'>ODEN LOBELL</h5>}
                     {!this.state.isHiddenFifth && <Oden />}
                   </div>
                 </div>
 
                 <div className='teammemberdiv'>
                   <div className='pictureboxweb' id='sara' onClick={this.handleSixth}>
-                    {this.state.isHiddenSixth && <h5 className='headernametext' id='arcamajora'>SARAH OUAKIM</h5>}
+                    {this.state.isHiddenSixth && <h5 className='headernametext arcamajora'>SARAH OUAKIM</h5>}
                     {!this.state.isHiddenSixth && <Sarah />}
                   </div>
                 </div>
@@ -170,7 +170,7 @@ class TeamPage extends React.Component {
 
           <div>
             <div id='flexboxcenter'>
-              <h2 id='colorwhite'>WANT TO JOIN OUR TEAM?</h2>
+              <h2 className='colorwhite'>WANT TO JOIN OUR TEAM?</h2>
             </div>
             <Getintouch />
           </div>

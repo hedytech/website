@@ -9,7 +9,7 @@ class InnovationStudioPage extends React.Component {
         <div className='mobile'>
 
           <div id='innovation'>
-            <div id='opacitydark'>
+            <div className='opacitydark'>
 
               <div className='areasheader'>
                 <div className='pagemarginweb'>
@@ -17,7 +17,7 @@ class InnovationStudioPage extends React.Component {
                   <div className='headertextbox'>
                     <p className='hedytexttiltinnovationlast'>Hedy</p>
 
-                    <h1 id='arcamajora'>INNOVATION STUDIO</h1>
+                    <h1 className='arcamajora'>INNOVATION STUDIO</h1>
                     <div className='headertextsmall2'>
                       <p>We become your tech and/or business partner in exchange for equity</p>
                     </div>
@@ -27,8 +27,8 @@ class InnovationStudioPage extends React.Component {
                 <div className='justifycenter'>
 
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
-                    <div className='academytextthin' id='colorwhite'>
-                      <h4 id='nomarginbottom'>
+                    <div className='academytextthin colorwhite'>
+                      <h4 className='nomarginbottom'>
           We accelerate start-ups through becoming a long-term business &amp; tech partner.
                       </h4>
                       <h4 id='nomargintop'>Our strong belief is that technology is the key to a better world,
@@ -70,7 +70,7 @@ class InnovationStudioPage extends React.Component {
         <div className='web'>
 
           <div id='innovation'>
-            <div id='opacitydark'>
+            <div className='opacitydark'>
 
               <div className='areasheader'>
                 <div className='pagemarginweb'>
@@ -78,7 +78,7 @@ class InnovationStudioPage extends React.Component {
                   <div className='headertextbox'>
                     <p className='hedytexttiltinnovationlast'>Hedy</p>
 
-                    <h1 id='arcamajora'>INNOVATION STUDIO</h1>
+                    <h1 className='arcamajora'>INNOVATION STUDIO</h1>
                     <div className='headertextsmall2'>
                       <p>We become your tech and/or business partner in exchange for equity</p>
                     </div>
@@ -88,7 +88,7 @@ class InnovationStudioPage extends React.Component {
                 <div className='justifycenter'>
 
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
-                    <div className='academytextthin' id='colorwhite'>
+                    <div className='academytextthin colorwhite'>
                       <h5 id='paddingleftright'>
             We accelerate start-ups through becoming a long-term business &amp; tech partner.
             Our strong belief is that technology is the key to a better world,
@@ -103,8 +103,8 @@ class InnovationStudioPage extends React.Component {
                 <div className='academyteambox2' id='backgroundcolordarkbluepink'>
 
                   <div id='paddingbottom'>
-                    <div className='academytextthin2' id='colorwhite'>
-                      <div className='textboxheader' id='paddingleftright'><h6 id='nomargintoplittlebottom'>OUR OFFER</h6></div>
+                    <div className='academytextthin2 colorwhite'>
+                      <div className='textboxheader' id='paddingleftright'><h6 className='nomargintoplittlebottom'>OUR OFFER</h6></div>
                       <div id='paddingleftright'>
                         <h6 className='bulletpoints' id='nomargintop'>
                           <ul>

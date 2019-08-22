@@ -10,7 +10,7 @@
   text-align:center;
 }
 
-#teampicture {
+.teampicture {
   background-image:url(../../images/TeamHedy.png);
   background-repeat:no-repeat;
   background-position:center center;

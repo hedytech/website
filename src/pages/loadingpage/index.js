@@ -30,7 +30,7 @@ class LoadingPage extends React.Component {
 
               <Header />
 
-              <div className='startdiv' id='colorwhite'>
+              <div className='startdiv colorwhite'>
 
                 <div className='startext'>
                   <h4>Hedy focuses on making successful digitalization journeys
@@ -40,9 +40,9 @@ class LoadingPage extends React.Component {
 
               </div>
 
-              <div id='whatwedo'>
+              <div className='whatwedo'>
                 <div className='whatwedobox4'>
-                  <h1 id='arcamajora'> WHAT WE DO </h1>
+                  <h1 className='arcamajora'> WHAT WE DO </h1>
 
                   <div className='threeareas2'>
 
@@ -53,10 +53,10 @@ class LoadingPage extends React.Component {
                       >
                         <div className='opacity0523'>
                           <p className='hedytexttilt2'>Hedy</p>
-                          <h2 id='nomarginbottom'>SERVICES</h2>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintoptrecommafem'>
-                              <div id='textalignleft'>
+                          <h2 className='nomarginbottom'>SERVICES</h2>
+                          <div className='futurathin'>
+                            <h5 className='title margintoptrecommafem'>
+                              <div className='textalignleft'>
                     We support start-ups, mid- sized and larger
                     companies in their ambition to build a profitable
                     and successful business.
@@ -64,7 +64,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 id='nomargin'>tell me more</h5></span></div>
+                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
                       </Link>
 
                     </div>
@@ -76,10 +76,10 @@ class LoadingPage extends React.Component {
                       >
                         <div className='opacity0523'>
                           <p className='hedytexttilt2'>Hedy</p>
-                          <h2 id='nomarginbottom'>ACADEMY</h2>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintoptrecommafem'>
-                              <div id='textalignleft'>
+                          <h2 className='nomarginbottom'>ACADEMY</h2>
+                          <div className='futurathin'>
+                            <h5 className='title margintoptrecommafem'>
+                              <div className='textalignleft'>
                     We provide high quality education to
                     close the gap between tech and business,
                     and build the skills we need to face a
@@ -88,7 +88,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 id='nomargin'>tell me more</h5></span></div>
+                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
                       </Link>
 
                     </div>
@@ -100,10 +100,10 @@ class LoadingPage extends React.Component {
                       >
                         <div className='opacity0523'>
                           <p className='hedytexttilt3'>Hedy</p>
-                          <h2 id='nomarginbottom'>INNOVATION STUDIO</h2>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintopnollcommafem'>
-                              <div id='textalignleft'>
+                          <h2 className='nomarginbottom'>INNOVATION STUDIO</h2>
+                          <div className='futurathin'>
+                            <h5 className='title margintopnollcommafem'>
+                              <div className='textalignleft'>
                     We edge up our business model by investing
                     in tech innovations that make a difference
                     and have the ambition to solve at least one
@@ -113,7 +113,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 id='nomargin'>tell me more</h5></span></div>
+                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
                       </Link>
 
                     </div>
@@ -124,24 +124,24 @@ class LoadingPage extends React.Component {
 
               <div className='introdiv2'>
 
-                <div className='hedypicturebox2' id='hedyhandsvartbeige' />
+                <div className='hedypicturebox2  hedyhandsvartbeige' />
                 <div className='missiondiv'>
-                  <h4 id='colorwhite'>
+                  <h4 className='colorwhite'>
                   Our mission is to make a tech imprint for a better world.
                   </h4>
                 </div>
               </div>
 
-              <div id='gettoknow'>
+              <div className='gettoknow'>
 
-                <div className='whatwedotext2' id='colorwhite'>
+                <div className='whatwedotext2 colorwhite'>
                   <h4>
                     We are in it for the long-run, are you?
                   </h4>
                 </div>
               </div>
 
-              <div className='startdiv' id='colorwhite'>
+              <div className='startdiv colorwhite'>
 
                 <div className='startext'>
                   <h4>We want sustainable, win-win-win-win business relations where the end-customer,
@@ -151,41 +151,41 @@ class LoadingPage extends React.Component {
                 </div>
               </div>
 
-              <div id='wearehedy'>
+              <div className='wearehedy'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/about'
                 >
-                  <div className='whatwedotext6' id='opacitydark'>
-                    <h4 id='colorwhite'>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h4>
-                    <div className='button'><span><h5 id='nomargin'>want to know more?</h5></span></div>
+                  <div className='whatwedotext6 opacitydark'>
+                    <h4 className='colorwhite'>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h4>
+                    <div className='button'><span><h5 className='nomargin'>want to know more?</h5></span></div>
                   </div>
                 </Link>
               </div>
 
-              <div id='teampicture'>
+              <div className='teampicture'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/team'
                 >
                   <div>
                     <div className='whatwedotext5'>
-                      <div className='button4'><span><h5 id='nomargin'>get to know our team</h5></span></div>
+                      <div className='button4'><span><h5 className='nomargin'>get to know our team</h5></span></div>
                     </div>
                   </div>
                 </Link>
               </div>
 
-              <div id='hedy'>
+              <div className='hedy'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/hedypage'
                 >
-                  <div className='introdiv4' id='opacitydark'>
+                  <div className='introdiv4 opacitydark'>
                     <div className='whatwedotext3'>
                       <h3 className='arcamajora'> HEDY LAMARR</h3>
                       <h4> Our muse &amp; the woman behind the name</h4>
-                      <div className='button4'><span><h5 id='nomargin'>find out more</h5></span></div>
+                      <div className='button4'><span><h5 className='nomargin'>find out more</h5></span></div>
                     </div>
                   </div>
                 </Link>
@@ -199,7 +199,7 @@ class LoadingPage extends React.Component {
             <div>
               <Header />
 
-              <div className='startdiv' id='colorwhite'>
+              <div className='startdiv colorwhite'>
 
                 <div className='circledivmedium' />
 
@@ -211,9 +211,9 @@ class LoadingPage extends React.Component {
 
               </div>
 
-              <div id='whatwedo'>
+              <div className='whatwedo'>
                 <div className='whatwedobox2'>
-                  <h1 id='arcamajora'> WHAT WE DO </h1>
+                  <h1 className='arcamajora'> WHAT WE DO </h1>
 
                   <div className='threeareas2'>
 
@@ -225,8 +225,8 @@ class LoadingPage extends React.Component {
                         <div className='opacity052'>
                           <p className='hedytexttilt2'>Hedy</p>
                           <h3>SERVICES</h3>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintoptrecommafem'>
+                          <div className='futurathin'>
+                            <h5 className='title margintoptrecommafem'>
                               <a href='#'>
                         We support start-ups, mid- sized and larger
                         companies in their ambition to build a profitable
@@ -235,7 +235,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 id='nomargin'>tell me more</h6></span></div>
+                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
                       </Link>
 
                     </div>
@@ -248,8 +248,8 @@ class LoadingPage extends React.Component {
                         <div className='opacity052'>
                           <p className='hedytexttilt2'>Hedy</p>
                           <h3>ACADEMY</h3>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintoptrecommafem'>
+                          <div className='futurathin'>
+                            <h5 className='title margintoptrecommafem'>
                               <a href='#'>
                         We provide high quality education to
                         close the gap between tech and business,
@@ -259,7 +259,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 id='nomargin'>tell me more</h6></span></div>
+                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
                       </Link>
 
                     </div>
@@ -271,9 +271,9 @@ class LoadingPage extends React.Component {
                       >
                         <div className='opacity052'>
                           <p className='hedytexttilt2'>Hedy</p>
-                          <h3 id='nomarginbottom'>INNOVATION STUDIO</h3>
-                          <div id='futurathin'>
-                            <h5 className='title' id='margintopnollcommafem'>
+                          <h3 className='nomarginbottom'>INNOVATION STUDIO</h3>
+                          <div className='futurathin'>
+                            <h5 className='title margintopnollcommafem'>
                               <a href='#'>
                         We edge up our business model by investing
                         in tech innovations that make a difference
@@ -284,7 +284,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 id='nomargin'>tell me more</h6></span></div>
+                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
                       </Link>
 
                     </div>
@@ -295,24 +295,24 @@ class LoadingPage extends React.Component {
 
               <div className='introdiv2'>
 
-                <div className='hedypicturebox2' id='hedyhandsvartbeige' />
+                <div className='hedypicturebox2 hedyhandsvartbeige' />
                 <div className='missiondiv'>
-                  <h2 id='colorwhite'>
+                  <h2 className='colorwhite'>
                       Our mission is to make a tech imprint for a better world.
                   </h2>
                 </div>
               </div>
 
-              <div id='gettoknow'>
+              <div className='gettoknow'>
 
-                <div className='whatwedotext2' id='colorwhite'>
+                <div className='whatwedotext2 colorwhite'>
                   <h2>
                     We are in it for the long-run, are you?
                   </h2>
                 </div>
               </div>
 
-              <div className='startdiv' id='colorwhite'>
+              <div className='startdiv colorwhite'>
 
                 <div className='circledivmedium' />
 
@@ -326,32 +326,32 @@ class LoadingPage extends React.Component {
 
               </div>
 
-              <div id='wearehedy'>
+              <div className='wearehedy'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/about'
                 >
-                  <div className='whatwedotext4' id='colorwhite'>
+                  <div className='whatwedotext4 colorwhite'>
                     <h2>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h2>
-                    <div className='button btn-3'><span><h5 id='nomargin'>want to know more?</h5></span></div>
+                    <div className='button btn-3'><span><h5 className='nomargin'>want to know more?</h5></span></div>
                   </div>
                 </Link>
               </div>
 
-              <div id='teampicture'>
+              <div className='teampicture'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/team'
                 >
                   <div className='gradient'>
                     <div className='whatwedotext5'>
-                      <div id='backgroundcoloropacitypink' className='button2 btn-3'><span><h5 id='nomargin'>get to know our team</h5></span></div>
+                      <div id='backgroundcoloropacitypink' className='button2 btn-3'><span><h5 className='nomargin'>get to know our team</h5></span></div>
                     </div>
                   </div>
                 </Link>
               </div>
 
-              <div id='hedy'>
+              <div className='hedy'>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
                   to='/hedypage'
@@ -360,7 +360,7 @@ class LoadingPage extends React.Component {
                     <div className='whatwedotext3'>
                       <h1 className='arcamajora'> HEDY LAMARR</h1>
                       <h2> Our muse &amp; the woman behind the name</h2>
-                      <div className='button3 btn-3'><span><h6 id='nomargin'>find out more</h6></span></div>
+                      <div className='button3 btn-3'><span><h6 className='nomargin'>find out more</h6></span></div>
                     </div>
                   </div>
                 </Link>

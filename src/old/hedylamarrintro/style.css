@@ -57,7 +57,7 @@
 }
 
 @media (max-width:1000px) {
-  #hedyhandsvartbeige {
+  .hedyhandsvartbeige {
     background-image:url(../../images/vithand.png);
     background-repeat:no-repeat;
     background-position:center center;
@@ -162,7 +162,7 @@
 
   .mobile { display:none; }
 
-  #hedyhandsvartbeige {
+  .hedyhandsvartbeige {
     background-image:url(../../images/vithand.png);
     background-repeat:no-repeat;
     background-position:center center;

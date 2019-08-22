@@ -14,13 +14,13 @@ class KotlinPage extends React.Component {
               <div className='areasheader'>
 
                 <div className='headertextbox'>
-                  <h1 id='arcamajora'>SUCCEED WITH KOTLIN</h1>
+                  <h1 className='arcamajora'>SUCCEED WITH KOTLIN</h1>
                   <h2>by</h2>
                   <div className='headertextsmall2' id='negativemargin'>
 
                     <p className='hedytexttiltacademy'>Hedy</p>
 
-                    <h1 id='arcamajora'>ACADEMY</h1>
+                    <h1 className='arcamajora'>ACADEMY</h1>
                   </div>
                   <div className='academytextthin'>
                     <h4>This course is formed as workshop were our
@@ -72,7 +72,7 @@ class KotlinPage extends React.Component {
                   </div>
                 </div>
 
-                <h1 id='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
+                <h1 className='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
                 <div className='academytextthin2'>
                   <h4>Curious about the new language that changed the entire Android world?
               That made Google take it under its own wings, that have Java Champions at Red Hat salute it.
@@ -109,9 +109,9 @@ class KotlinPage extends React.Component {
               </div>
 
               <div className='academyteambox'>
-                <h1 id='nomargin'>EDUCATION STANDARDS</h1>
+                <h1 className='nomargin'>EDUCATION STANDARDS</h1>
                 <div className='academytextthin2'>
-                  <h4 id='nomarginbottom'>ATTENDEES</h4>
+                  <h4 className='nomarginbottom'>ATTENDEES</h4>
                   <h4 id='nomargintop'>You should have programming experience in some language,
                 preferably Java or similar. But any object-oriented (or OO featured) language will do.
                 This is not an introductory course to programming, it’s a course on Kotlin,
@@ -122,11 +122,11 @@ class KotlinPage extends React.Component {
                 <div className='academytextthin2'>
                   <h4>PREREQUISITES</h4>
                   <div>
-                    <h4 id='nomargin'>Knowledge of the following concepts in any general programming language:</h4>
+                    <h4 className='nomargin'>Knowledge of the following concepts in any general programming language:</h4>
                     <ul>
                       <li> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
                     </ul>
-                    <h4 id='nomargin'>Preferred knowledge of these concepts and one of these languages:</h4>
+                    <h4 className='nomargin'>Preferred knowledge of these concepts and one of these languages:</h4>
                     <ul>
                       <li> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
                     </ul>
@@ -134,7 +134,7 @@ class KotlinPage extends React.Component {
                 </div>
 
                 <div className='academytextthin' id='paddingleftright'>
-                  <h4 id='nomargin'>TEMPO</h4>
+                  <h4 className='nomargin'>TEMPO</h4>
                   <h4 id='nomargintop'>The course will keep a high tempo to slow down a bit during the second day
                   when the complexity of the material increases. This is to be able to go through
                   all the concepts of Kotlin and for the attendees to be able to try them all out
@@ -157,11 +157,11 @@ class KotlinPage extends React.Component {
               <div className='areasheader'>
 
                 <div className='headertextbox'>
-                  <h1 id='arcamajora'>SUCCEED WITH KOTLIN</h1>
+                  <h1 className='arcamajora'>SUCCEED WITH KOTLIN</h1>
                   <div className='headertextsmall2'>
                     <h3>by</h3>
                     <p className='hedytexttiltkotlin'>Hedy</p>
-                    <h2 id='arcamajora'>ACADEMY</h2>
+                    <h2 className='arcamajora'>ACADEMY</h2>
                   </div>
                   <div className='academytextthin'>
                     <h5>This course is formed as workshop were our
@@ -184,7 +184,7 @@ class KotlinPage extends React.Component {
               <div className='academyteambox'>
 
                 <div className='academytextthin2'>
-                  <h6 className='textboxheader' id='nomarginbottom'>OBJECTIVES</h6>
+                  <h6 className='textboxheader nomarginbottom'>OBJECTIVES</h6>
                   <div>
                     <h6 id='nomargin1vw'>After taking the course you should be able to:</h6>
 
@@ -201,7 +201,7 @@ class KotlinPage extends React.Component {
                 </div>
 
                 <div className='academytextthin2'>
-                  <h6 className='textboxheader' id='nomarginbottom'>REQUIREMENTS</h6>
+                  <h6 className='textboxheader nomarginbottom'>REQUIREMENTS</h6>
                   <div>
                     <h6 id='nomargin1vw'>Before taking the course you shoud have:</h6>
 
@@ -215,7 +215,7 @@ class KotlinPage extends React.Component {
                   </div>
                 </div>
 
-                <h1 id='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
+                <h1 className='nomarginbottom'>OVERVIEW &amp; PURPOSE</h1>
                 <div className='academytextthin2'>
                   <h6>Curious about the new language that changed the entire Android world?
               That made Google take it under its own wings, that have Java Champions at Red Hat salute it.
@@ -252,9 +252,9 @@ class KotlinPage extends React.Component {
               </div>
 
               <div className='academyteambox'>
-                <h1 id='nomargin'>EDUCATION STANDARDS</h1>
+                <h1 className='nomargin'>EDUCATION STANDARDS</h1>
                 <div className='academytextthin2'>
-                  <h5 id='nomarginbottom'>ATTENDEES</h5>
+                  <h5 className='nomarginbottom'>ATTENDEES</h5>
                   <h6 id='nomargintop'>You should have programming experience in some language,
                 preferably Java or similar. But any object-oriented (or OO featured) language will do.
                 This is not an introductory course to programming, it’s a course on Kotlin,
@@ -263,13 +263,13 @@ class KotlinPage extends React.Component {
                   </h6>
                 </div>
                 <div className='academytextthin2'>
-                  <h5 id='nomarginbottom'>PREREQUISITES</h5>
+                  <h5 className='nomarginbottom'>PREREQUISITES</h5>
                   <div>
-                    <h6 id='nomargin'>Knowledge of the following concepts in any general programming language:</h6>
+                    <h6 className='nomargin'>Knowledge of the following concepts in any general programming language:</h6>
                     <ul>
                       <li id='fontsize1vw'> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
                     </ul>
-                    <h6 id='nomargin'>Preferred knowledge of these concepts and one of these languages:</h6>
+                    <h6 className='nomargin'>Preferred knowledge of these concepts and one of these languages:</h6>
                     <ul>
                       <li id='fontsize1vw'> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
                     </ul>
@@ -277,7 +277,7 @@ class KotlinPage extends React.Component {
                 </div>
 
                 <div className='academytextthin' id='paddingleftright'>
-                  <h5 id='nomargin'>TEMPO</h5>
+                  <h5 className='nomargin'>TEMPO</h5>
                   <h6 id='nomargintop'>The course will keep a high tempo to slow down a bit during the second day
                   when the complexity of the material increases. This is to be able to go through
                   all the concepts of Kotlin and for the attendees to be able to try them all out

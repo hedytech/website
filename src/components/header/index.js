@@ -38,8 +38,8 @@ class Header extends React.Component {
     return (
       <div>
         <div className='mobile'>
-          <div id='headerpic'>
-            <div id='opacitydark'>
+          <div className='headerpic'>
+            <div className='opacitydark'>
 
               <div className='header'>
 
@@ -58,7 +58,7 @@ class Header extends React.Component {
                   <div className='typewriter'>WE ARE HEDYLITY TECHNOLOGY</div>
 
                   <div className='fadeintext'>
-                    <h1 className='callushedytext2' id='colorwhite'>But you can call us <mark className='pink'>Hedy</mark></h1>
+                    <h1 className='callushedytext2 colorwhite'>But you can call us <mark className='pink'>Hedy</mark></h1>
                   </div>
                 </div>
               </div>
@@ -70,8 +70,8 @@ class Header extends React.Component {
 
           <div className='web'>
             <div>
-              <div id='headerpic'>
-                <div id='opacitydark'>
+              <div className='headerpic'>
+                <div className='opacitydark'>
 
                   <div className='header'>
                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 300'>
@@ -87,12 +87,12 @@ class Header extends React.Component {
 
                   <div className='hedylitytechnologytext'>
 
-                    <div className='typewriter' id='colorwhite'>
+                    <div className='typewriter colorwhite'>
                       <h1>WE ARE HEDYLITY TECHNOLOGY</h1>
                     </div>
 
                     <div className='fadeintext'>
-                      <h1 className='callushedytext' id='colorwhite'>But you can call us <mark className='pink'>Hedy</mark></h1>
+                      <h1 className='callushedytext colorwhite'>But you can call us <mark className='pink'>Hedy</mark></h1>
                     </div>
                   </div>
                 </div>
