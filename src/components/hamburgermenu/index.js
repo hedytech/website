@@ -20,12 +20,10 @@ class Hamburgermenu extends React.Component {
                 <div className='logohamburgermenu' id='blackhylogo' />
               </Link>
 
-              <label for='closeIconMobile' style={{ visibility: 'hidden' }}>Close</label>
-
               <div className='boxbehindhamburger' id='menuToggle'>
                 <nav role='navigation'>
                   <div id='menuToggle'>
-                    <input id='closeIconMobile' name='closeIconMobile' type='checkbox' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} />
+                    <input id='closeIconMobile' aria-label='Close' type='checkbox' onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} />
                     <span />
                     <span />
                     <span />
@@ -107,7 +105,7 @@ class Hamburgermenu extends React.Component {
 
                 <div id='webmenuToggle'>
 
-                  <input id='closeIcon' type='checkbox' />
+                  <input id='closeIcon' type='checkbox' aria-label='Close' />
 
                   <ul id='webmenu'>
                     <li>
