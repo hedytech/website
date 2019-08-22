@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Hamburgermenu from './components/hamburgermenu';
 import Fotnot from './components/fotnot';
 import ScrollToTop from './components/scrolltotop';
@@ -18,6 +19,9 @@ class App extends React.Component {
   render () {
     return (
       <HashRouter>
+        <Helmet>
+          <title>Hedylity Technology</title>
+        </Helmet>
         <ScrollToTop>
           <Hamburgermenu />
           <Route
