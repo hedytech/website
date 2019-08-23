@@ -328,7 +328,7 @@ class LoadingPage extends React.Component {
                 >
                   <div className='gradient'>
                     <div className='whatwedotext5'>
-                      <div id='backgroundcoloropacitypink' className='button2 btn-3'><span><h5 className='nomargin'>get to know our team</h5></span></div>
+                      <div id='backgroundcoloropacitypink' className='button3 btn-3'><span><h5 className='nomargin'>get to know our team</h5></span></div>
                     </div>
                   </div>
                 </Link>

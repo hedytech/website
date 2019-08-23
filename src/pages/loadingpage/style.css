@@ -73,33 +73,6 @@ div span::after {
 
 .btn-3:hover span::before { transition-delay:0.6s; }
 
-.button2 {
-  display:inline-block;
-  position:relative;
-  background:none;
-  border:none;
-  color:#fff;
-  font-family:Arca Majora3;
-  cursor:pointer;
-  margin-top:8vw;
-}
-
-.button2::before,
-.button2::after {
-  content:"";
-  width:0;
-  height:2px;
-  position:absolute;
-  transition:all 0.2s linear;
-  background:#fff;
-}
-
-.button2:hover::before,
-.button2:hover::after { width:100%; }
-
-.button2:hover span::before,
-.button2:hover span::after { height:100%; }
-
 .button3 {
   display:inline-block;
   position:relative;
@@ -990,6 +963,10 @@ div span::after {
   background-size:90%;
   background-color:white;
   cursor:pointer;
+}
+
+.teampicture .button3 {
+  margin-top: 8vw;
 }
 
 #texthedyteam {
