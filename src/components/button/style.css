@@ -40,6 +40,21 @@
   transition-delay:0.4s;
   width:100%;
 }
+
+.button > span {
+  display:block;
+  padding:1vw 4vw;
+}
+
+.button > span::before,
+.button > span::after {
+  content:"";
+  width:2px;
+  height:0;
+  position:absolute;
+  transition:all 0.2s linear;
+  background:#fff;
+}
   
 .button span:after {
   transition-delay:0.4s;

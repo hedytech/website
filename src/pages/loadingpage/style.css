@@ -1,20 +1,5 @@
 .textalignleft { text-align:left; }
 
-div > span {
-  display:block;
-  padding:1vw 4vw;
-}
-
-div span::before,
-div span::after {
-  content:"";
-  width:2px;
-  height:0;
-  position:absolute;
-  transition:all 0.2s linear;
-  background:#fff;
-}
-
 .title a {
   background-image:linear-gradient(to right,rgb(3,49,64,0) 50%,#033140 50%);
   background-position:-0% 0;
