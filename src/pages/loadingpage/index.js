@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Link } from 'react-router-dom';
 import './style.css';
 import Header from '../../components/header';
+import Button from '../../components/button';
 
 class LoadingPage extends React.Component {
   render () {
@@ -47,7 +48,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
+                        <Button color='pink'><span><h5 className='nomargin'>tell me more</h5></span></Button>
                       </Link>
 
                     </div>
@@ -71,7 +72,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
+                        <Button color='pink'><span><h5 className='nomargin'>tell me more</h5></span></Button>
                       </Link>
 
                     </div>
@@ -96,7 +97,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button4'><span><h5 className='nomargin'>tell me more</h5></span></div>
+                        <Button color='pink'><span><h5 className='nomargin'>tell me more</h5></span></Button>
                       </Link>
 
                     </div>
@@ -141,7 +142,9 @@ class LoadingPage extends React.Component {
                 >
                   <div className='whatwedotext6 opacitydark'>
                     <h4 className='colorwhite'>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h4>
-                    <div className='button'><span><h5 className='nomargin'>want to know more?</h5></span></div>
+                    <Button>
+                      <span><h5 className='nomargin'>want to know more?</h5></span>
+                    </Button>
                   </div>
                 </Link>
               </div>
@@ -153,7 +156,7 @@ class LoadingPage extends React.Component {
                 >
                   <div>
                     <div className='whatwedotext5'>
-                      <div className='button4'><span><h5 className='nomargin'>get to know our team</h5></span></div>
+                      <Button color='pink'><span><h5 className='nomargin'>get to know our team</h5></span></Button>
                     </div>
                   </div>
                 </Link>
@@ -168,7 +171,7 @@ class LoadingPage extends React.Component {
                     <div className='whatwedotext3'>
                       <h3 className='arcamajora'> HEDY LAMARR</h3>
                       <h4> Our muse &amp; the woman behind the name</h4>
-                      <div className='button4'><span><h5 className='nomargin'>find out more</h5></span></div>
+                      <Button color='pink'><span><h5 className='nomargin'>find out more</h5></span></Button>
                     </div>
                   </div>
                 </Link>
@@ -218,7 +221,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
+                        <Button color='pink'><span><h6 className='nomargin'>tell me more</h6></span></Button>
                       </Link>
 
                     </div>
@@ -242,7 +245,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
+                        <Button color='pink'><span><h6 className='nomargin'>tell me more</h6></span></Button>
                       </Link>
 
                     </div>
@@ -267,7 +270,7 @@ class LoadingPage extends React.Component {
                             </h5>
                           </div>
                         </div>
-                        <div className='button3 btn-3'><span><h6 className='nomargin'>tell me more</h6></span></div>
+                        <Button color='pink'><span><h6 className='nomargin'>tell me more</h6></span></Button>
                       </Link>
 
                     </div>
@@ -316,7 +319,7 @@ class LoadingPage extends React.Component {
                 >
                   <div className='whatwedotext4 colorwhite'>
                     <h2>We are Honest. We are Effectual. We are Devoted. We are Young &amp; Witty. We are <mark className='pink'>HEDY.</mark></h2>
-                    <div className='button btn-3'><span><h5 className='nomargin'>want to know more?</h5></span></div>
+                    <Button><span><h5 className='nomargin'>want to know more?</h5></span></Button>
                   </div>
                 </Link>
               </div>
@@ -328,7 +331,7 @@ class LoadingPage extends React.Component {
                 >
                   <div className='gradient'>
                     <div className='whatwedotext5'>
-                      <div id='backgroundcoloropacitypink' className='button3 btn-3'><span><h5 className='nomargin'>get to know our team</h5></span></div>
+                      <Button id='backgroundcoloropacitypink' color='pink'><span><h5 className='nomargin'>get to know our team</h5></span></Button>
                     </div>
                   </div>
                 </Link>
@@ -343,12 +346,11 @@ class LoadingPage extends React.Component {
                     <div className='whatwedotext3'>
                       <h1 className='arcamajora'> HEDY LAMARR</h1>
                       <h2> Our muse &amp; the woman behind the name</h2>
-                      <div className='button3 btn-3'><span><h6 className='nomargin'>find out more</h6></span></div>
+                      <Button color='pink'><span><h6 className='nomargin'>find out more</h6></span></Button>
                     </div>
                   </div>
                 </Link>
               </div>
-
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import { TweenLite, Linear } from 'gsap';
+import Button from '../../components/button';
 
 class Fotnot extends React.Component {
   constructor (props) {
@@ -70,7 +71,7 @@ class Fotnot extends React.Component {
 
           <div className='fotnotcontact' id='paddingtopbottom'>
             <a href='mailto:hello@hedy.tech' style={{ textDecoration: 'none', color: 'white' }}>
-              <div className='button btn-3'><span><h4 className='nomargin'>hello@hedy.tech</h4></span></div>
+              <Button><span><h4 className='nomargin'>hello@hedy.tech</h4></span></Button>
             </a>
           </div>
 

@@ -1,28 +1,8 @@
 .textalignleft { text-align:left; }
 
-.button {
-  display:inline-block;
-  position:relative;
-  background:none;
-  border:none;
-  color:#fff;
-  font-family:Arca Majora3;
-  cursor:pointer;
-}
-
 div > span {
   display:block;
   padding:1vw 4vw;
-}
-
-.button::before,
-.button::after {
-  content:"";
-  width:0;
-  height:2px;
-  position:absolute;
-  transition:all 0.2s linear;
-  background:#fff;
 }
 
 div span::before,
@@ -33,81 +13,6 @@ div span::after {
   position:absolute;
   transition:all 0.2s linear;
   background:#fff;
-}
-
-.button:hover::before,
-.button:hover::after { width:100%; }
-
-.button:hover span::before,
-.button:hover span::after { height:100%; }
-
-.btn-3::after {
-  left:0;
-  bottom:0;
-  transition-delay:0.6s;
-}
-
-.btn-3 span::after {
-  transition-delay:0.4s;
-  right:0;
-  bottom:0;
-}
-
-.btn-3::before {
-  right:0;
-  top:0;
-  transition-delay:0.2s;
-}
-
-.btn-3 span::before {
-  transition-delay:0s;
-  left:0;
-  top:0;
-}
-
-.btn-3:hover::after { transition-delay:0s; }
-
-.btn-3:hover span::after { transition-delay:0.2s; }
-
-.btn-3:hover::before { transition-delay:0.4s; }
-
-.btn-3:hover span::before { transition-delay:0.6s; }
-
-.button3 {
-  display:inline-block;
-  position:relative;
-  background:rgb(241,136,138,0.5);
-  border:none;
-  color:#fff;
-  font-family:Arca Majora3;
-  cursor:pointer;
-}
-
-.button3::before,
-.button3::after {
-  content:"";
-  width:0;
-  height:2px;
-  position:absolute;
-  transition:all 0.2s linear;
-  background:#fff;
-}
-
-.button3:hover::before,
-.button3:hover::after { width:100%; }
-
-.button3:hover span::before,
-.button3:hover span::after { height:100%; }
-
-.button4 {
-  display:inline-block;
-  position:relative;
-  background:rgb(241,136,138,0.5);
-  border:none;
-  color:#fff;
-  font-family:Arca Majora3;
-  cursor:pointer;
-  margin-top:6vw;
 }
 
 .title a {
@@ -965,7 +870,7 @@ div span::after {
   cursor:pointer;
 }
 
-.teampicture .button3 {
+.teampicture .button-pink {
   margin-top: 8vw;
 }
 
