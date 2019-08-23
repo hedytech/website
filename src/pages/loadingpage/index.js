@@ -4,23 +4,6 @@ import './style.css';
 import Header from '../../components/header';
 
 class LoadingPage extends React.Component {
-  state = {
-    isHidden: true,
-    isHiddenTwo: true
-  };
-
-  myFunction = () => {
-    this.setState({
-      isHidden: !this.state.isHidden
-    });
-  }
-
-  myFunctionTwo = () => {
-    this.setState({
-      isHiddenTwo: !this.state.isHiddenTwo
-    });
-  }
-
   render () {
     return (
       <HashRouter>

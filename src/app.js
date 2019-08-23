@@ -21,6 +21,8 @@ class App extends React.Component {
       <HashRouter>
         <Helmet>
           <title>Hedylity Technology</title>
+          <meta property="og:title" content="Hedylity Technology" />
+          <meta property="og:description" content="Creating the future. Making a tech imprint for a better world." />
         </Helmet>
         <ScrollToTop>
           <Hamburgermenu />
