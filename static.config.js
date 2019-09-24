@@ -15,7 +15,7 @@ export default {
             <script async src='https://www.googletagmanager.com/gtag/js?id=UA-139204005-1' />
             <script dangerouslySetInnerHTML={{ __html: 'window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\'js\', new Date());gtag(\'config\', \'UA-139204005-1\');' }} />
             <title>Hedylity Technology</title>
-            <meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1' />
+            <meta charSet='utf-8' name='viewport' content='width=device-width, initial-scale=1' />
             <meta name='description' content='Hedy focuses on making successful digitalization journeys with forefront technology, high-skilled people and an innovative environment.' />
             <meta property='og:title' content='Hedylity Technology' />
             <meta property='og:description' content='Hedy focuses on making successful digitalization journeys with forefront technology, high-skilled people and an innovative environment.' />
