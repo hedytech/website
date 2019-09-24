@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './index.css';
 import { TweenLite, Linear } from 'gsap';
 
 class Header extends React.Component {

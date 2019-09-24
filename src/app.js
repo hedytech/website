@@ -1,72 +1,35 @@
-import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
-import Hamburgermenu from './components/hamburgermenu';
-import Fotnot from './components/fotnot';
+import React, { Component } from 'react';
+import { Root, Routes } from 'react-static';
+import { Router } from '@reach/router';
+import { hot } from 'react-hot-loader';
 import ScrollToTop from './components/scrolltotop';
-import ServicesPage from './pages/servicespage';
-import AcademyPage from './pages/academypage';
-import InnovationStudioPage from './pages/innovationstudiopage';
-import AboutPage from './pages/aboutpage';
-import TeamPage from './pages/teampage';
-import HedyPage from './pages/hedypage';
-import KotlinPage from './pages/kotlinpage';
-import BookingConditionsPage from './pages/bookingconditionspage';
-import PrivacyPolicyPage from './pages/privacypolicypage';
-import LoadingPage from './pages/loadingpage';
+import Hamburgermenu from './components/hamburgermenu';
+import './index.css';
 
-class App extends React.Component {
+class App extends Component {
+  componentDidMount() {
+    if (typeof document !== 'undefined') {
+      const hash = window.location.hash
+      if (hash.length && hash.indexOf('#/') !== -1) {
+        window.location = hash.slice(1);
+      }
+    }
+  }
+
   render () {
     return (
-      <HashRouter>
+      <Root>
         <ScrollToTop>
           <Hamburgermenu />
-          <Route
-            exact
-            path='/'
-            component={LoadingPage}
-          />
-          <Route
-            exact
-            path='/services'
-            component={ServicesPage}
-          />
-          <Route
-            path='/academy'
-            component={AcademyPage}
-          />
-          <Route
-            path='/innovationstudio'
-            component={InnovationStudioPage}
-          />
-          <Route
-            path='/about'
-            component={AboutPage}
-          />
-          <Route
-            path='/team'
-            component={TeamPage}
-          />
-          <Route
-            path='/kotlin'
-            component={KotlinPage}
-          />
-          <Route
-            path='/hedypage'
-            component={HedyPage}
-          />
-          <Route
-            path='/bookingconditions'
-            component={BookingConditionsPage}
-          />
-          <Route
-            path='/privacypolicy'
-            component={PrivacyPolicyPage}
-          />
-          <Fotnot />
+          <React.Suspense fallback={<span />}>
+            <Router>
+              <Routes path='*' />
+            </Router>
+          </React.Suspense>
         </ScrollToTop>
-      </HashRouter>
+      </Root>
     );
   }
 }
 
-export default App;
+export default hot(module)(App);

@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
 import Getintouch from '../../components/getintouch';
+import './index.css';
 
-class InnovationStudioPage extends React.Component {
+export default class InnovationStudio extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
@@ -29,7 +29,7 @@ class InnovationStudioPage extends React.Component {
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
                     <div className='academytextthin colorwhite'>
                       <h4 className='nomarginbottom'>
-          We accelerate start-ups through becoming a long-term business &amp; tech partner.
+                        We accelerate start-ups through becoming a long-term business &amp; tech partner.
                       </h4>
                       <h4 id='nomargintop'>Our strong belief is that technology is the key to a better world,
                 therefore we partner up with, and invest in, tech innovations that
@@ -90,10 +90,10 @@ class InnovationStudioPage extends React.Component {
                   <div className='academyteambox' id='backgroundcolordarkbluepink'>
                     <div className='academytextthin colorwhite'>
                       <h5 id='paddingleftright'>
-            We accelerate start-ups through becoming a long-term business &amp; tech partner.
-            Our strong belief is that technology is the key to a better world,
-            therefore we partner up with, and invest in, tech innovations that
-            have the ambition to contribute to solving at least one of the 17 global sustainability goals.
+                        We accelerate start-ups through becoming a long-term business &amp; tech partner.
+                        Our strong belief is that technology is the key to a better world,
+                        therefore we partner up with, and invest in, tech innovations that
+                        have the ambition to contribute to solving at least one of the 17 global sustainability goals.
                       </h5>
                     </div>
                   </div>
@@ -134,5 +134,3 @@ class InnovationStudioPage extends React.Component {
     );
   }
 }
-
-export default InnovationStudioPage;

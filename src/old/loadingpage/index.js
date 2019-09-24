@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@reach/router';
 import './style.css';
 import Header from '../../components/header';
 import Introbox from '../introbox';

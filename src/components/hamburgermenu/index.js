@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './style.css';
+import { Link } from '@reach/router';
+import './index.css';
 
-class Hamburgermenu extends React.Component {
+export default class Hamburgermenu extends React.Component {
   state = {
     menuOpen: false
   };
@@ -25,7 +25,7 @@ class Hamburgermenu extends React.Component {
               <div className='boxbehindhamburger menuToggle'>
                 <nav role='navigation'>
                   <div className='menuToggle'>
-                    <input id='closeIconMobile' aria-label='Close' type='checkbox' checked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
+                    <input id='closeIconMobile' aria-label='Close' type='checkbox' readOnly checked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
                     <span />
                     <span />
                     <span />
@@ -107,7 +107,7 @@ class Hamburgermenu extends React.Component {
 
                 <div className='webmenuToggle'>
 
-                  <input id='closeIcon' type='checkbox' aria-label='Close' checked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
+                  <input id='closeIcon' type='checkbox' aria-label='Close' readOnly defaultChecked={menuOpen} onClick={() => this.setState({ menuOpen: !menuOpen })} />
 
                   <ul className='webmenu' onClick={() => this.setState({ menuOpen: !menuOpen })}>
                     <li>
@@ -163,12 +163,8 @@ class Hamburgermenu extends React.Component {
               </nav>
             </div>
           </div>
-
         </div>
       </div>
-
     );
   }
 }
-
-export default Hamburgermenu;

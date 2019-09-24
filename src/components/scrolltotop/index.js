@@ -1,10 +1,13 @@
-import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+import React from 'react';
+import { Location } from '@reach/router';
 
-export default withRouter(({ children, location: { pathname } }) => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return children || null;
-});
+export default ({ children }) => (
+  <Location>
+    {() => {
+      if (typeof document !== 'undefined') {
+        window.scrollTo(0, 0);
+      }
+      return children || null;
+    }}
+  </Location>
+);

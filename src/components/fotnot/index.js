@@ -1,7 +1,7 @@
 import React from 'react';
-import './style.css';
 import { TweenLite, Linear } from 'gsap';
-import Button from '../../components/button';
+import Button from '../button';
+import './index.css';
 
 class Fotnot extends React.Component {
   constructor (props) {

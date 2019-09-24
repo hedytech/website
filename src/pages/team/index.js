@@ -1,13 +1,13 @@
 import React from 'react';
-import './style.css';
 import Getintouch from '../../components/getintouch';
 import Bob from '../../components/bob';
 import Emelie from '../../components/emelie';
 import Hanna from '../../components/hanna';
 import Oden from '../../components/oden';
 import Sarah from '../../components/sarah';
+import './index.css';
 
-class TeamPage extends React.Component {
+export default class Team extends React.Component {
   state = {
     isHiddenFirst: true,
     isHiddenSecond: true,
@@ -180,5 +180,3 @@ class TeamPage extends React.Component {
     );
   }
 }
-
-export default TeamPage;

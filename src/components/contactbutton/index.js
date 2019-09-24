@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './index.css';
 
 export default ({ title = 'CONTACT US FOR MORE INFO', href = 'mailto:hello@hedy.tech' }) => (
   <div>
