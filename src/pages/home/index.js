@@ -158,7 +158,7 @@ export default () => (
         <div className='hedy'>
           <Link
             style={{ textDecoration: 'none', color: 'black' }}
-            to='/hedypage'
+            to='/hedy'
           >
             <div className='introdiv4 opacitydark'>
               <div className='whatwedotext3'>
@@ -333,7 +333,7 @@ export default () => (
         <div className='hedy'>
           <Link
             style={{ textDecoration: 'none', color: 'black' }}
-            to='/hedypage'
+            to='/hedy'
           >
             <div className='introdiv3' id='opacity'>
               <div className='whatwedotext3'>
