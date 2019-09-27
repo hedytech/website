@@ -5,6 +5,7 @@ import Emelie from '../../components/emelie';
 import Hanna from '../../components/hanna';
 import Oden from '../../components/oden';
 import Sarah from '../../components/sarah';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default class Team extends React.Component {
@@ -44,6 +45,10 @@ export default class Team extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
+        <Helmet>
+          <title>Team - Hedylity Technology</title>
+          <link rel="canonical" href="https://hedy.tech/team/" />
+        </Helmet>
         <div className='headerpic2'>
 
           <div className='mobile'>

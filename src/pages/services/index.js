@@ -1,9 +1,14 @@
 import React from 'react';
 import Contactbutton from '../../components/contactbutton';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default () => (
   <div className='fadeinclass'>
+    <Helmet>
+      <title>Services - Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/services/" />
+    </Helmet>
     <div className='mobile'>
       <div id='services'>
         <div className='opacitydark'>

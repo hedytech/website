@@ -2,10 +2,15 @@ import React from 'react';
 import { Link } from '@reach/router';
 import Header from '../../components/header';
 import Button from '../../components/button';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default () => (
   <div>
+    <Helmet>
+      <title>Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/" />
+    </Helmet>
     <div className='mobile'>
       <div>
         <Header />

@@ -3,10 +3,15 @@ import { Link } from '@reach/router';
 import Contactbutton from '../../components/contactbutton';
 import Tellmemorebutton from '../../components/tellmemorebutton';
 import Comingsoon from '../../components/comingsoon';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default () => (
   <div className='fadeinclass'>
+    <Helmet>
+      <title>Academy - Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/academy/" />
+    </Helmet>
     <div className='mobile'>
       <div id='academy3'>
 

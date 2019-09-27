@@ -1,9 +1,14 @@
 import React from 'react';
 import Interest from '../../components/interest';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default () => (
   <div className='fadeinclass'>
+    <Helmet>
+      <title>Kotlin - Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/kotlin/" />
+    </Helmet>
     <div className='mobile'>
       <div id='kotlin'>
         <div>

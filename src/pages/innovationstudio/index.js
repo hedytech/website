@@ -1,11 +1,16 @@
 import React from 'react';
 import Getintouch from '../../components/getintouch';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default class InnovationStudio extends React.Component {
   render () {
     return (
       <div className='fadeinclass'>
+        <Helmet>
+          <title>Innovation Studio - Hedylity Technology</title>
+          <link rel="canonical" href="https://hedy.tech/innovationstudio/" />
+        </Helmet>
         <div className='mobile'>
 
           <div id='innovation'>

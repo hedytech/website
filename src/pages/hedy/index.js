@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './index.css';
 
 export default () => (
   <div className='hedy'>
+    <Helmet>
+      <title>Hedy Lamarr - Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/hedy/" />
+    </Helmet>
     <div className='fadeinclass'>
       <div className='fadeinclass'>
         <div className='mobile'>

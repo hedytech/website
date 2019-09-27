@@ -1,7 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 export default () => (
   <div className='fadeinclass'>
+    <Helmet>
+      <title>Booking Conditions - Hedylity Technology</title>
+      <link rel="canonical" href="https://hedy.tech/bookingconditions/" />
+    </Helmet>
     <div className='abouttextthinleftweb' id='backgroundcolorwhiteblack'>
       <h1>BOOKING CONDITIONS</h1>
       <div className='whatwedosmalltextcenter'>
