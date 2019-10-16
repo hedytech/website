@@ -4,6 +4,7 @@ import { Router } from '@reach/router';
 import { hot } from 'react-hot-loader';
 import ScrollToTop from './components/scrolltotop';
 import Hamburgermenu from './components/hamburgermenu';
+import Fotnot from './components/fotnot';
 import './index.css';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
             <Router>
               <Routes path='*' />
             </Router>
+            <Fotnot />
           </React.Suspense>
         </ScrollToTop>
       </Root>
