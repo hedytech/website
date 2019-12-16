@@ -65,9 +65,9 @@ export default class Hamburgermenu extends React.Component {
                       <li>
                         <Link
                           style={{ textDecoration: 'none', color: '#ffffff' }}
-                          to='/team'
+                          to='/careers'
                         >
-                          <p>TEAM</p>
+                          <p>CAREERS</p>
                         </Link>
                       </li>
                       <li>
@@ -145,9 +145,9 @@ export default class Hamburgermenu extends React.Component {
                     <li>
                       <Link
                         style={{ textDecoration: 'none', color: '#ffffff' }}
-                        to='/team'
+                        to='/careers'
                       >
-                        <p>TEAM</p>
+                        <p>CAREERS</p>
                       </Link>
                     </li>
                     <li>

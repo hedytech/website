@@ -69,8 +69,8 @@ export default {
         template: 'src/pages/services'
       },
       {
-        path: '/team',
-        template: 'src/pages/team'
+        path: '/careers',
+        template: 'src/pages/careers'
       },
       {
         path: '404',
